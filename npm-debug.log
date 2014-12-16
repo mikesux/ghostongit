@@ -1,0 +1,2535 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--production' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/mikeouellette1/dev/ghostongit',
+5 verbose install   [ 'bcryptjs',
+5 verbose install     'bluebird',
+5 verbose install     'body-parser',
+5 verbose install     'bookshelf',
+5 verbose install     'busboy',
+5 verbose install     'cheerio',
+5 verbose install     'colors',
+5 verbose install     'compression',
+5 verbose install     'connect-slashes',
+5 verbose install     'downsize',
+5 verbose install     'express',
+5 verbose install     'express-hbs',
+5 verbose install     'extract-zip',
+5 verbose install     'fs-extra',
+5 verbose install     'glob',
+5 verbose install     'html-to-text',
+5 verbose install     'knex',
+5 verbose install     'lodash',
+5 verbose install     'moment',
+5 verbose install     'morgan',
+5 verbose install     'node-uuid',
+5 verbose install     'nodemailer',
+5 verbose install     'oauth2orize',
+5 verbose install     'passport',
+5 verbose install     'passport-http-bearer',
+5 verbose install     'passport-oauth2-client-password',
+5 verbose install     'request',
+5 verbose install     'rss',
+5 verbose install     'semver',
+5 verbose install     'showdown-ghost',
+5 verbose install     'sqlite3',
+5 verbose install     'unidecode',
+5 verbose install     'validator',
+5 verbose install     'xml',
+5 verbose install     'mysql',
+5 verbose install     'pg.js' ] ]
+6 info preinstall ghost@0.5.7
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'bcryptjs@2.0.2', null ]
+9 verbose cache add name=undefined spec="bcryptjs@2.0.2" args=["bcryptjs@2.0.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'bcryptjs@2.0.2',
+10 verbose parsed url   path: 'bcryptjs@2.0.2',
+10 verbose parsed url   href: 'bcryptjs@2.0.2' }
+11 verbose cache add [ 'bluebird@2.3.10', null ]
+12 verbose cache add name=undefined spec="bluebird@2.3.10" args=["bluebird@2.3.10",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'bluebird@2.3.10',
+13 verbose parsed url   path: 'bluebird@2.3.10',
+13 verbose parsed url   href: 'bluebird@2.3.10' }
+14 verbose cache add [ 'body-parser@1.8.2', null ]
+15 verbose cache add name=undefined spec="body-parser@1.8.2" args=["body-parser@1.8.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'body-parser@1.8.2',
+16 verbose parsed url   path: 'body-parser@1.8.2',
+16 verbose parsed url   href: 'body-parser@1.8.2' }
+17 verbose cache add [ 'bookshelf@0.7.9', null ]
+18 verbose cache add name=undefined spec="bookshelf@0.7.9" args=["bookshelf@0.7.9",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'bookshelf@0.7.9',
+19 verbose parsed url   path: 'bookshelf@0.7.9',
+19 verbose parsed url   href: 'bookshelf@0.7.9' }
+20 verbose cache add name="bcryptjs" spec="2.0.2" args=["bcryptjs","2.0.2"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '2.0.2',
+21 verbose parsed url   path: '2.0.2',
+21 verbose parsed url   href: '2.0.2' }
+22 verbose addNamed [ 'bcryptjs', '2.0.2' ]
+23 verbose addNamed [ '2.0.2', '2.0.2' ]
+24 verbose cache add name="bluebird" spec="2.3.10" args=["bluebird","2.3.10"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '2.3.10',
+25 verbose parsed url   path: '2.3.10',
+25 verbose parsed url   href: '2.3.10' }
+26 verbose addNamed [ 'bluebird', '2.3.10' ]
+27 verbose addNamed [ '2.3.10', '2.3.10' ]
+28 verbose cache add name="body-parser" spec="1.8.2" args=["body-parser","1.8.2"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '1.8.2',
+29 verbose parsed url   path: '1.8.2',
+29 verbose parsed url   href: '1.8.2' }
+30 verbose addNamed [ 'body-parser', '1.8.2' ]
+31 verbose addNamed [ '1.8.2', '1.8.2' ]
+32 verbose cache add [ 'busboy@0.2.8', null ]
+33 verbose cache add name=undefined spec="busboy@0.2.8" args=["busboy@0.2.8",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'busboy@0.2.8',
+34 verbose parsed url   path: 'busboy@0.2.8',
+34 verbose parsed url   href: 'busboy@0.2.8' }
+35 verbose cache add [ 'cheerio@0.17.0', null ]
+36 verbose cache add name=undefined spec="cheerio@0.17.0" args=["cheerio@0.17.0",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'cheerio@0.17.0',
+37 verbose parsed url   path: 'cheerio@0.17.0',
+37 verbose parsed url   href: 'cheerio@0.17.0' }
+38 verbose cache add name="bookshelf" spec="0.7.9" args=["bookshelf","0.7.9"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '0.7.9',
+39 verbose parsed url   path: '0.7.9',
+39 verbose parsed url   href: '0.7.9' }
+40 verbose addNamed [ 'bookshelf', '0.7.9' ]
+41 verbose addNamed [ '0.7.9', '0.7.9' ]
+42 silly lockFile bf657624-bcryptjs-2-0-2 bcryptjs@2.0.2
+43 verbose lock bcryptjs@2.0.2 /Users/mikeouellette1/.npm/bf657624-bcryptjs-2-0-2.lock
+44 silly lockFile 3b199f4c-bluebird-2-3-10 bluebird@2.3.10
+45 verbose lock bluebird@2.3.10 /Users/mikeouellette1/.npm/3b199f4c-bluebird-2-3-10.lock
+46 silly lockFile 6bf46ddd-body-parser-1-8-2 body-parser@1.8.2
+47 verbose lock body-parser@1.8.2 /Users/mikeouellette1/.npm/6bf46ddd-body-parser-1-8-2.lock
+48 silly lockFile 749b55e6-bookshelf-0-7-9 bookshelf@0.7.9
+49 verbose lock bookshelf@0.7.9 /Users/mikeouellette1/.npm/749b55e6-bookshelf-0-7-9.lock
+50 verbose cache add name="busboy" spec="0.2.8" args=["busboy","0.2.8"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '0.2.8',
+51 verbose parsed url   path: '0.2.8',
+51 verbose parsed url   href: '0.2.8' }
+52 verbose addNamed [ 'busboy', '0.2.8' ]
+53 verbose addNamed [ '0.2.8', '0.2.8' ]
+54 silly lockFile b343f259-busboy-0-2-8 busboy@0.2.8
+55 verbose lock busboy@0.2.8 /Users/mikeouellette1/.npm/b343f259-busboy-0-2-8.lock
+56 verbose cache add [ 'colors@0.6.2', null ]
+57 verbose cache add name=undefined spec="colors@0.6.2" args=["colors@0.6.2",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'colors@0.6.2',
+58 verbose parsed url   path: 'colors@0.6.2',
+58 verbose parsed url   href: 'colors@0.6.2' }
+59 verbose cache add [ 'compression@1.2.0', null ]
+60 verbose cache add name=undefined spec="compression@1.2.0" args=["compression@1.2.0",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'compression@1.2.0',
+61 verbose parsed url   path: 'compression@1.2.0',
+61 verbose parsed url   href: 'compression@1.2.0' }
+62 verbose cache add name="cheerio" spec="0.17.0" args=["cheerio","0.17.0"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: '0.17.0',
+63 verbose parsed url   path: '0.17.0',
+63 verbose parsed url   href: '0.17.0' }
+64 verbose addNamed [ 'cheerio', '0.17.0' ]
+65 verbose addNamed [ '0.17.0', '0.17.0' ]
+66 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+67 verbose lock cheerio@0.17.0 /Users/mikeouellette1/.npm/26cb7f10-cheerio-0-17-0.lock
+68 verbose cache add name="colors" spec="0.6.2" args=["colors","0.6.2"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '0.6.2',
+69 verbose parsed url   path: '0.6.2',
+69 verbose parsed url   href: '0.6.2' }
+70 verbose addNamed [ 'colors', '0.6.2' ]
+71 verbose addNamed [ '0.6.2', '0.6.2' ]
+72 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+73 verbose lock colors@0.6.2 /Users/mikeouellette1/.npm/1ce149d5-colors-0-6-2.lock
+74 verbose cache add [ 'connect-slashes@1.2.0', null ]
+75 verbose cache add name=undefined spec="connect-slashes@1.2.0" args=["connect-slashes@1.2.0",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'connect-slashes@1.2.0',
+76 verbose parsed url   path: 'connect-slashes@1.2.0',
+76 verbose parsed url   href: 'connect-slashes@1.2.0' }
+77 verbose cache add [ 'downsize@0.0.8', null ]
+78 verbose cache add name=undefined spec="downsize@0.0.8" args=["downsize@0.0.8",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'downsize@0.0.8',
+79 verbose parsed url   path: 'downsize@0.0.8',
+79 verbose parsed url   href: 'downsize@0.0.8' }
+80 verbose cache add name="compression" spec="1.2.0" args=["compression","1.2.0"]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: '1.2.0',
+81 verbose parsed url   path: '1.2.0',
+81 verbose parsed url   href: '1.2.0' }
+82 verbose addNamed [ 'compression', '1.2.0' ]
+83 verbose addNamed [ '1.2.0', '1.2.0' ]
+84 silly lockFile 6026493a-compression-1-2-0 compression@1.2.0
+85 verbose lock compression@1.2.0 /Users/mikeouellette1/.npm/6026493a-compression-1-2-0.lock
+86 verbose cache add name="connect-slashes" spec="1.2.0" args=["connect-slashes","1.2.0"]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: '1.2.0',
+87 verbose parsed url   path: '1.2.0',
+87 verbose parsed url   href: '1.2.0' }
+88 verbose addNamed [ 'connect-slashes', '1.2.0' ]
+89 verbose addNamed [ '1.2.0', '1.2.0' ]
+90 silly lockFile af24efd4-connect-slashes-1-2-0 connect-slashes@1.2.0
+91 verbose lock connect-slashes@1.2.0 /Users/mikeouellette1/.npm/af24efd4-connect-slashes-1-2-0.lock
+92 verbose cache add [ 'express@4.10.2', null ]
+93 verbose cache add name=undefined spec="express@4.10.2" args=["express@4.10.2",null]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: 'express@4.10.2',
+94 verbose parsed url   path: 'express@4.10.2',
+94 verbose parsed url   href: 'express@4.10.2' }
+95 verbose cache add [ 'express-hbs@0.7.11', null ]
+96 verbose cache add name=undefined spec="express-hbs@0.7.11" args=["express-hbs@0.7.11",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'express-hbs@0.7.11',
+97 verbose parsed url   path: 'express-hbs@0.7.11',
+97 verbose parsed url   href: 'express-hbs@0.7.11' }
+98 verbose cache add name="downsize" spec="0.0.8" args=["downsize","0.0.8"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '0.0.8',
+99 verbose parsed url   path: '0.0.8',
+99 verbose parsed url   href: '0.0.8' }
+100 verbose addNamed [ 'downsize', '0.0.8' ]
+101 verbose addNamed [ '0.0.8', '0.0.8' ]
+102 silly lockFile 7e4464a3-downsize-0-0-8 downsize@0.0.8
+103 verbose lock downsize@0.0.8 /Users/mikeouellette1/.npm/7e4464a3-downsize-0-0-8.lock
+104 verbose request where is /bluebird
+105 verbose request registry https://registry.npmjs.org/
+106 verbose request id 0cfb1c6cc1e108de
+107 verbose url raw /bluebird
+108 verbose url resolving [ 'https://registry.npmjs.org/', './bluebird' ]
+109 verbose url resolved https://registry.npmjs.org/bluebird
+110 verbose request where is https://registry.npmjs.org/bluebird
+111 info trying registry request attempt 1 at 13:22:05
+112 http GET https://registry.npmjs.org/bluebird
+113 verbose request where is /bcryptjs
+114 verbose request registry https://registry.npmjs.org/
+115 verbose url raw /bcryptjs
+116 verbose url resolving [ 'https://registry.npmjs.org/', './bcryptjs' ]
+117 verbose url resolved https://registry.npmjs.org/bcryptjs
+118 verbose request where is https://registry.npmjs.org/bcryptjs
+119 info trying registry request attempt 1 at 13:22:05
+120 http GET https://registry.npmjs.org/bcryptjs
+121 verbose request where is /bookshelf
+122 verbose request registry https://registry.npmjs.org/
+123 verbose url raw /bookshelf
+124 verbose url resolving [ 'https://registry.npmjs.org/', './bookshelf' ]
+125 verbose url resolved https://registry.npmjs.org/bookshelf
+126 verbose request where is https://registry.npmjs.org/bookshelf
+127 info trying registry request attempt 1 at 13:22:05
+128 http GET https://registry.npmjs.org/bookshelf
+129 verbose cache add name="express" spec="4.10.2" args=["express","4.10.2"]
+130 verbose parsed url { protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: '4.10.2',
+130 verbose parsed url   path: '4.10.2',
+130 verbose parsed url   href: '4.10.2' }
+131 verbose addNamed [ 'express', '4.10.2' ]
+132 verbose addNamed [ '4.10.2', '4.10.2' ]
+133 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+134 verbose lock express@4.10.2 /Users/mikeouellette1/.npm/787e98b4-express-4-10-2.lock
+135 verbose cache add [ 'extract-zip@1.0.3', null ]
+136 verbose cache add name=undefined spec="extract-zip@1.0.3" args=["extract-zip@1.0.3",null]
+137 verbose parsed url { protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: 'extract-zip@1.0.3',
+137 verbose parsed url   path: 'extract-zip@1.0.3',
+137 verbose parsed url   href: 'extract-zip@1.0.3' }
+138 verbose cache add [ 'fs-extra@0.12.0', null ]
+139 verbose cache add name=undefined spec="fs-extra@0.12.0" args=["fs-extra@0.12.0",null]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'fs-extra@0.12.0',
+140 verbose parsed url   path: 'fs-extra@0.12.0',
+140 verbose parsed url   href: 'fs-extra@0.12.0' }
+141 verbose cache add [ 'glob@4.3.1', null ]
+142 verbose cache add name=undefined spec="glob@4.3.1" args=["glob@4.3.1",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'glob@4.3.1',
+143 verbose parsed url   path: 'glob@4.3.1',
+143 verbose parsed url   href: 'glob@4.3.1' }
+144 verbose cache add [ 'html-to-text@1.0.0', null ]
+145 verbose cache add name=undefined spec="html-to-text@1.0.0" args=["html-to-text@1.0.0",null]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: 'html-to-text@1.0.0',
+146 verbose parsed url   path: 'html-to-text@1.0.0',
+146 verbose parsed url   href: 'html-to-text@1.0.0' }
+147 verbose cache add [ 'knex@0.7.3', null ]
+148 verbose cache add name=undefined spec="knex@0.7.3" args=["knex@0.7.3",null]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: 'knex@0.7.3',
+149 verbose parsed url   path: 'knex@0.7.3',
+149 verbose parsed url   href: 'knex@0.7.3' }
+150 verbose cache add [ 'lodash@2.4.1', null ]
+151 verbose cache add name=undefined spec="lodash@2.4.1" args=["lodash@2.4.1",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'lodash@2.4.1',
+152 verbose parsed url   path: 'lodash@2.4.1',
+152 verbose parsed url   href: 'lodash@2.4.1' }
+153 verbose cache add [ 'moment@2.8.3', null ]
+154 verbose cache add name=undefined spec="moment@2.8.3" args=["moment@2.8.3",null]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: 'moment@2.8.3',
+155 verbose parsed url   path: 'moment@2.8.3',
+155 verbose parsed url   href: 'moment@2.8.3' }
+156 verbose cache add [ 'morgan@1.3.1', null ]
+157 verbose cache add name=undefined spec="morgan@1.3.1" args=["morgan@1.3.1",null]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: 'morgan@1.3.1',
+158 verbose parsed url   path: 'morgan@1.3.1',
+158 verbose parsed url   href: 'morgan@1.3.1' }
+159 verbose cache add [ 'node-uuid@1.4.1', null ]
+160 verbose cache add name=undefined spec="node-uuid@1.4.1" args=["node-uuid@1.4.1",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'node-uuid@1.4.1',
+161 verbose parsed url   path: 'node-uuid@1.4.1',
+161 verbose parsed url   href: 'node-uuid@1.4.1' }
+162 verbose cache add [ 'nodemailer@0.7.1', null ]
+163 verbose cache add name=undefined spec="nodemailer@0.7.1" args=["nodemailer@0.7.1",null]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: 'nodemailer@0.7.1',
+164 verbose parsed url   path: 'nodemailer@0.7.1',
+164 verbose parsed url   href: 'nodemailer@0.7.1' }
+165 verbose cache add [ 'oauth2orize@1.0.1', null ]
+166 verbose cache add name=undefined spec="oauth2orize@1.0.1" args=["oauth2orize@1.0.1",null]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: 'oauth2orize@1.0.1',
+167 verbose parsed url   path: 'oauth2orize@1.0.1',
+167 verbose parsed url   href: 'oauth2orize@1.0.1' }
+168 verbose cache add [ 'passport@0.2.0', null ]
+169 verbose cache add name=undefined spec="passport@0.2.0" args=["passport@0.2.0",null]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: 'passport@0.2.0',
+170 verbose parsed url   path: 'passport@0.2.0',
+170 verbose parsed url   href: 'passport@0.2.0' }
+171 verbose cache add [ 'passport-http-bearer@1.0.1', null ]
+172 verbose cache add name=undefined spec="passport-http-bearer@1.0.1" args=["passport-http-bearer@1.0.1",null]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: 'passport-http-bearer@1.0.1',
+173 verbose parsed url   path: 'passport-http-bearer@1.0.1',
+173 verbose parsed url   href: 'passport-http-bearer@1.0.1' }
+174 verbose cache add [ 'passport-oauth2-client-password@0.1.1', null ]
+175 verbose cache add name=undefined spec="passport-oauth2-client-password@0.1.1" args=["passport-oauth2-client-password@0.1.1",null]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: 'passport-oauth2-client-password@0.1.1',
+176 verbose parsed url   path: 'passport-oauth2-client-password@0.1.1',
+176 verbose parsed url   href: 'passport-oauth2-client-password@0.1.1' }
+177 verbose cache add [ 'request@2.47.0', null ]
+178 verbose cache add name=undefined spec="request@2.47.0" args=["request@2.47.0",null]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: 'request@2.47.0',
+179 verbose parsed url   path: 'request@2.47.0',
+179 verbose parsed url   href: 'request@2.47.0' }
+180 verbose cache add [ 'rss@1.0.0', null ]
+181 verbose cache add name=undefined spec="rss@1.0.0" args=["rss@1.0.0",null]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: 'rss@1.0.0',
+182 verbose parsed url   path: 'rss@1.0.0',
+182 verbose parsed url   href: 'rss@1.0.0' }
+183 verbose cache add [ 'semver@4.1.0', null ]
+184 verbose cache add name=undefined spec="semver@4.1.0" args=["semver@4.1.0",null]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: 'semver@4.1.0',
+185 verbose parsed url   path: 'semver@4.1.0',
+185 verbose parsed url   href: 'semver@4.1.0' }
+186 verbose cache add [ 'showdown-ghost@0.3.4', null ]
+187 verbose cache add name=undefined spec="showdown-ghost@0.3.4" args=["showdown-ghost@0.3.4",null]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'showdown-ghost@0.3.4',
+188 verbose parsed url   path: 'showdown-ghost@0.3.4',
+188 verbose parsed url   href: 'showdown-ghost@0.3.4' }
+189 verbose cache add [ 'sqlite3@3.0.2', null ]
+190 verbose cache add name=undefined spec="sqlite3@3.0.2" args=["sqlite3@3.0.2",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'sqlite3@3.0.2',
+191 verbose parsed url   path: 'sqlite3@3.0.2',
+191 verbose parsed url   href: 'sqlite3@3.0.2' }
+192 verbose cache add [ 'unidecode@0.1.3', null ]
+193 verbose cache add name=undefined spec="unidecode@0.1.3" args=["unidecode@0.1.3",null]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'unidecode@0.1.3',
+194 verbose parsed url   path: 'unidecode@0.1.3',
+194 verbose parsed url   href: 'unidecode@0.1.3' }
+195 verbose cache add [ 'validator@3.22.1', null ]
+196 verbose cache add name=undefined spec="validator@3.22.1" args=["validator@3.22.1",null]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: 'validator@3.22.1',
+197 verbose parsed url   path: 'validator@3.22.1',
+197 verbose parsed url   href: 'validator@3.22.1' }
+198 verbose cache add [ 'xml@0.0.12', null ]
+199 verbose cache add name=undefined spec="xml@0.0.12" args=["xml@0.0.12",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'xml@0.0.12',
+200 verbose parsed url   path: 'xml@0.0.12',
+200 verbose parsed url   href: 'xml@0.0.12' }
+201 verbose cache add [ 'mysql@2.1.1', null ]
+202 verbose cache add name=undefined spec="mysql@2.1.1" args=["mysql@2.1.1",null]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: 'mysql@2.1.1',
+203 verbose parsed url   path: 'mysql@2.1.1',
+203 verbose parsed url   href: 'mysql@2.1.1' }
+204 verbose cache add [ 'pg.js@3.6.2', null ]
+205 verbose cache add name=undefined spec="pg.js@3.6.2" args=["pg.js@3.6.2",null]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: 'pg.js@3.6.2',
+206 verbose parsed url   path: 'pg.js@3.6.2',
+206 verbose parsed url   href: 'pg.js@3.6.2' }
+207 verbose cache add name="express-hbs" spec="0.7.11" args=["express-hbs","0.7.11"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '0.7.11',
+208 verbose parsed url   path: '0.7.11',
+208 verbose parsed url   href: '0.7.11' }
+209 verbose addNamed [ 'express-hbs', '0.7.11' ]
+210 verbose addNamed [ '0.7.11', '0.7.11' ]
+211 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+212 verbose lock express-hbs@0.7.11 /Users/mikeouellette1/.npm/82d18d62-express-hbs-0-7-11.lock
+213 verbose request where is /body-parser
+214 verbose request registry https://registry.npmjs.org/
+215 verbose url raw /body-parser
+216 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+217 verbose url resolved https://registry.npmjs.org/body-parser
+218 verbose request where is https://registry.npmjs.org/body-parser
+219 info trying registry request attempt 1 at 13:22:05
+220 http GET https://registry.npmjs.org/body-parser
+221 verbose request where is /busboy
+222 verbose request registry https://registry.npmjs.org/
+223 verbose url raw /busboy
+224 verbose url resolving [ 'https://registry.npmjs.org/', './busboy' ]
+225 verbose url resolved https://registry.npmjs.org/busboy
+226 verbose request where is https://registry.npmjs.org/busboy
+227 info trying registry request attempt 1 at 13:22:05
+228 http GET https://registry.npmjs.org/busboy
+229 verbose cache add name="extract-zip" spec="1.0.3" args=["extract-zip","1.0.3"]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: '1.0.3',
+230 verbose parsed url   path: '1.0.3',
+230 verbose parsed url   href: '1.0.3' }
+231 verbose addNamed [ 'extract-zip', '1.0.3' ]
+232 verbose addNamed [ '1.0.3', '1.0.3' ]
+233 silly lockFile 2a4dc43f-extract-zip-1-0-3 extract-zip@1.0.3
+234 verbose lock extract-zip@1.0.3 /Users/mikeouellette1/.npm/2a4dc43f-extract-zip-1-0-3.lock
+235 verbose cache add name="fs-extra" spec="0.12.0" args=["fs-extra","0.12.0"]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: '0.12.0',
+236 verbose parsed url   path: '0.12.0',
+236 verbose parsed url   href: '0.12.0' }
+237 verbose addNamed [ 'fs-extra', '0.12.0' ]
+238 verbose addNamed [ '0.12.0', '0.12.0' ]
+239 silly lockFile c8267045-fs-extra-0-12-0 fs-extra@0.12.0
+240 verbose lock fs-extra@0.12.0 /Users/mikeouellette1/.npm/c8267045-fs-extra-0-12-0.lock
+241 verbose cache add name="glob" spec="4.3.1" args=["glob","4.3.1"]
+242 verbose parsed url { protocol: null,
+242 verbose parsed url   slashes: null,
+242 verbose parsed url   auth: null,
+242 verbose parsed url   host: null,
+242 verbose parsed url   port: null,
+242 verbose parsed url   hostname: null,
+242 verbose parsed url   hash: null,
+242 verbose parsed url   search: null,
+242 verbose parsed url   query: null,
+242 verbose parsed url   pathname: '4.3.1',
+242 verbose parsed url   path: '4.3.1',
+242 verbose parsed url   href: '4.3.1' }
+243 verbose addNamed [ 'glob', '4.3.1' ]
+244 verbose addNamed [ '4.3.1', '4.3.1' ]
+245 silly lockFile 59951906-glob-4-3-1 glob@4.3.1
+246 verbose lock glob@4.3.1 /Users/mikeouellette1/.npm/59951906-glob-4-3-1.lock
+247 verbose cache add name="html-to-text" spec="1.0.0" args=["html-to-text","1.0.0"]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: '1.0.0',
+248 verbose parsed url   path: '1.0.0',
+248 verbose parsed url   href: '1.0.0' }
+249 verbose addNamed [ 'html-to-text', '1.0.0' ]
+250 verbose addNamed [ '1.0.0', '1.0.0' ]
+251 silly lockFile e1756154-html-to-text-1-0-0 html-to-text@1.0.0
+252 verbose lock html-to-text@1.0.0 /Users/mikeouellette1/.npm/e1756154-html-to-text-1-0-0.lock
+253 verbose cache add name="knex" spec="0.7.3" args=["knex","0.7.3"]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: '0.7.3',
+254 verbose parsed url   path: '0.7.3',
+254 verbose parsed url   href: '0.7.3' }
+255 verbose addNamed [ 'knex', '0.7.3' ]
+256 verbose addNamed [ '0.7.3', '0.7.3' ]
+257 silly lockFile c74436cc-knex-0-7-3 knex@0.7.3
+258 verbose lock knex@0.7.3 /Users/mikeouellette1/.npm/c74436cc-knex-0-7-3.lock
+259 verbose cache add name="lodash" spec="2.4.1" args=["lodash","2.4.1"]
+260 verbose parsed url { protocol: null,
+260 verbose parsed url   slashes: null,
+260 verbose parsed url   auth: null,
+260 verbose parsed url   host: null,
+260 verbose parsed url   port: null,
+260 verbose parsed url   hostname: null,
+260 verbose parsed url   hash: null,
+260 verbose parsed url   search: null,
+260 verbose parsed url   query: null,
+260 verbose parsed url   pathname: '2.4.1',
+260 verbose parsed url   path: '2.4.1',
+260 verbose parsed url   href: '2.4.1' }
+261 verbose addNamed [ 'lodash', '2.4.1' ]
+262 verbose addNamed [ '2.4.1', '2.4.1' ]
+263 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+264 verbose lock lodash@2.4.1 /Users/mikeouellette1/.npm/8502be2a-lodash-2-4-1.lock
+265 verbose cache add name="moment" spec="2.8.3" args=["moment","2.8.3"]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: '2.8.3',
+266 verbose parsed url   path: '2.8.3',
+266 verbose parsed url   href: '2.8.3' }
+267 verbose addNamed [ 'moment', '2.8.3' ]
+268 verbose addNamed [ '2.8.3', '2.8.3' ]
+269 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+270 verbose lock moment@2.8.3 /Users/mikeouellette1/.npm/707ecd2d-moment-2-8-3.lock
+271 verbose cache add name="morgan" spec="1.3.1" args=["morgan","1.3.1"]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: '1.3.1',
+272 verbose parsed url   path: '1.3.1',
+272 verbose parsed url   href: '1.3.1' }
+273 verbose addNamed [ 'morgan', '1.3.1' ]
+274 verbose addNamed [ '1.3.1', '1.3.1' ]
+275 silly lockFile 7bd73065-morgan-1-3-1 morgan@1.3.1
+276 verbose lock morgan@1.3.1 /Users/mikeouellette1/.npm/7bd73065-morgan-1-3-1.lock
+277 verbose cache add name="node-uuid" spec="1.4.1" args=["node-uuid","1.4.1"]
+278 verbose parsed url { protocol: null,
+278 verbose parsed url   slashes: null,
+278 verbose parsed url   auth: null,
+278 verbose parsed url   host: null,
+278 verbose parsed url   port: null,
+278 verbose parsed url   hostname: null,
+278 verbose parsed url   hash: null,
+278 verbose parsed url   search: null,
+278 verbose parsed url   query: null,
+278 verbose parsed url   pathname: '1.4.1',
+278 verbose parsed url   path: '1.4.1',
+278 verbose parsed url   href: '1.4.1' }
+279 verbose addNamed [ 'node-uuid', '1.4.1' ]
+280 verbose addNamed [ '1.4.1', '1.4.1' ]
+281 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+282 verbose lock node-uuid@1.4.1 /Users/mikeouellette1/.npm/7c2028cd-node-uuid-1-4-1.lock
+283 verbose cache add name="nodemailer" spec="0.7.1" args=["nodemailer","0.7.1"]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: '0.7.1',
+284 verbose parsed url   path: '0.7.1',
+284 verbose parsed url   href: '0.7.1' }
+285 verbose addNamed [ 'nodemailer', '0.7.1' ]
+286 verbose addNamed [ '0.7.1', '0.7.1' ]
+287 silly lockFile 6823eb56-nodemailer-0-7-1 nodemailer@0.7.1
+288 verbose lock nodemailer@0.7.1 /Users/mikeouellette1/.npm/6823eb56-nodemailer-0-7-1.lock
+289 verbose cache add name="oauth2orize" spec="1.0.1" args=["oauth2orize","1.0.1"]
+290 verbose parsed url { protocol: null,
+290 verbose parsed url   slashes: null,
+290 verbose parsed url   auth: null,
+290 verbose parsed url   host: null,
+290 verbose parsed url   port: null,
+290 verbose parsed url   hostname: null,
+290 verbose parsed url   hash: null,
+290 verbose parsed url   search: null,
+290 verbose parsed url   query: null,
+290 verbose parsed url   pathname: '1.0.1',
+290 verbose parsed url   path: '1.0.1',
+290 verbose parsed url   href: '1.0.1' }
+291 verbose addNamed [ 'oauth2orize', '1.0.1' ]
+292 verbose addNamed [ '1.0.1', '1.0.1' ]
+293 silly lockFile 8bc541ef-oauth2orize-1-0-1 oauth2orize@1.0.1
+294 verbose lock oauth2orize@1.0.1 /Users/mikeouellette1/.npm/8bc541ef-oauth2orize-1-0-1.lock
+295 verbose cache add name="passport" spec="0.2.0" args=["passport","0.2.0"]
+296 verbose parsed url { protocol: null,
+296 verbose parsed url   slashes: null,
+296 verbose parsed url   auth: null,
+296 verbose parsed url   host: null,
+296 verbose parsed url   port: null,
+296 verbose parsed url   hostname: null,
+296 verbose parsed url   hash: null,
+296 verbose parsed url   search: null,
+296 verbose parsed url   query: null,
+296 verbose parsed url   pathname: '0.2.0',
+296 verbose parsed url   path: '0.2.0',
+296 verbose parsed url   href: '0.2.0' }
+297 verbose addNamed [ 'passport', '0.2.0' ]
+298 verbose addNamed [ '0.2.0', '0.2.0' ]
+299 silly lockFile 315c7a7b-passport-0-2-0 passport@0.2.0
+300 verbose lock passport@0.2.0 /Users/mikeouellette1/.npm/315c7a7b-passport-0-2-0.lock
+301 verbose cache add name="passport-http-bearer" spec="1.0.1" args=["passport-http-bearer","1.0.1"]
+302 verbose parsed url { protocol: null,
+302 verbose parsed url   slashes: null,
+302 verbose parsed url   auth: null,
+302 verbose parsed url   host: null,
+302 verbose parsed url   port: null,
+302 verbose parsed url   hostname: null,
+302 verbose parsed url   hash: null,
+302 verbose parsed url   search: null,
+302 verbose parsed url   query: null,
+302 verbose parsed url   pathname: '1.0.1',
+302 verbose parsed url   path: '1.0.1',
+302 verbose parsed url   href: '1.0.1' }
+303 verbose addNamed [ 'passport-http-bearer', '1.0.1' ]
+304 verbose addNamed [ '1.0.1', '1.0.1' ]
+305 silly lockFile 131bdcb0-passport-http-bearer-1-0-1 passport-http-bearer@1.0.1
+306 verbose lock passport-http-bearer@1.0.1 /Users/mikeouellette1/.npm/131bdcb0-passport-http-bearer-1-0-1.lock
+307 verbose cache add name="passport-oauth2-client-password" spec="0.1.1" args=["passport-oauth2-client-password","0.1.1"]
+308 verbose parsed url { protocol: null,
+308 verbose parsed url   slashes: null,
+308 verbose parsed url   auth: null,
+308 verbose parsed url   host: null,
+308 verbose parsed url   port: null,
+308 verbose parsed url   hostname: null,
+308 verbose parsed url   hash: null,
+308 verbose parsed url   search: null,
+308 verbose parsed url   query: null,
+308 verbose parsed url   pathname: '0.1.1',
+308 verbose parsed url   path: '0.1.1',
+308 verbose parsed url   href: '0.1.1' }
+309 verbose addNamed [ 'passport-oauth2-client-password', '0.1.1' ]
+310 verbose addNamed [ '0.1.1', '0.1.1' ]
+311 silly lockFile 63c8108a-ort-oauth2-client-password-0-1-1 passport-oauth2-client-password@0.1.1
+312 verbose lock passport-oauth2-client-password@0.1.1 /Users/mikeouellette1/.npm/63c8108a-ort-oauth2-client-password-0-1-1.lock
+313 verbose cache add name="request" spec="2.47.0" args=["request","2.47.0"]
+314 verbose parsed url { protocol: null,
+314 verbose parsed url   slashes: null,
+314 verbose parsed url   auth: null,
+314 verbose parsed url   host: null,
+314 verbose parsed url   port: null,
+314 verbose parsed url   hostname: null,
+314 verbose parsed url   hash: null,
+314 verbose parsed url   search: null,
+314 verbose parsed url   query: null,
+314 verbose parsed url   pathname: '2.47.0',
+314 verbose parsed url   path: '2.47.0',
+314 verbose parsed url   href: '2.47.0' }
+315 verbose addNamed [ 'request', '2.47.0' ]
+316 verbose addNamed [ '2.47.0', '2.47.0' ]
+317 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+318 verbose lock request@2.47.0 /Users/mikeouellette1/.npm/6725db09-request-2-47-0.lock
+319 verbose cache add name="rss" spec="1.0.0" args=["rss","1.0.0"]
+320 verbose parsed url { protocol: null,
+320 verbose parsed url   slashes: null,
+320 verbose parsed url   auth: null,
+320 verbose parsed url   host: null,
+320 verbose parsed url   port: null,
+320 verbose parsed url   hostname: null,
+320 verbose parsed url   hash: null,
+320 verbose parsed url   search: null,
+320 verbose parsed url   query: null,
+320 verbose parsed url   pathname: '1.0.0',
+320 verbose parsed url   path: '1.0.0',
+320 verbose parsed url   href: '1.0.0' }
+321 verbose addNamed [ 'rss', '1.0.0' ]
+322 verbose addNamed [ '1.0.0', '1.0.0' ]
+323 silly lockFile 9b08ad12-rss-1-0-0 rss@1.0.0
+324 verbose lock rss@1.0.0 /Users/mikeouellette1/.npm/9b08ad12-rss-1-0-0.lock
+325 verbose cache add name="semver" spec="4.1.0" args=["semver","4.1.0"]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: '4.1.0',
+326 verbose parsed url   path: '4.1.0',
+326 verbose parsed url   href: '4.1.0' }
+327 verbose addNamed [ 'semver', '4.1.0' ]
+328 verbose addNamed [ '4.1.0', '4.1.0' ]
+329 silly lockFile 5727bb2f-semver-4-1-0 semver@4.1.0
+330 verbose lock semver@4.1.0 /Users/mikeouellette1/.npm/5727bb2f-semver-4-1-0.lock
+331 verbose cache add name="showdown-ghost" spec="0.3.4" args=["showdown-ghost","0.3.4"]
+332 verbose parsed url { protocol: null,
+332 verbose parsed url   slashes: null,
+332 verbose parsed url   auth: null,
+332 verbose parsed url   host: null,
+332 verbose parsed url   port: null,
+332 verbose parsed url   hostname: null,
+332 verbose parsed url   hash: null,
+332 verbose parsed url   search: null,
+332 verbose parsed url   query: null,
+332 verbose parsed url   pathname: '0.3.4',
+332 verbose parsed url   path: '0.3.4',
+332 verbose parsed url   href: '0.3.4' }
+333 verbose addNamed [ 'showdown-ghost', '0.3.4' ]
+334 verbose addNamed [ '0.3.4', '0.3.4' ]
+335 silly lockFile 00b4bbdf-showdown-ghost-0-3-4 showdown-ghost@0.3.4
+336 verbose lock showdown-ghost@0.3.4 /Users/mikeouellette1/.npm/00b4bbdf-showdown-ghost-0-3-4.lock
+337 verbose cache add name="sqlite3" spec="3.0.2" args=["sqlite3","3.0.2"]
+338 verbose parsed url { protocol: null,
+338 verbose parsed url   slashes: null,
+338 verbose parsed url   auth: null,
+338 verbose parsed url   host: null,
+338 verbose parsed url   port: null,
+338 verbose parsed url   hostname: null,
+338 verbose parsed url   hash: null,
+338 verbose parsed url   search: null,
+338 verbose parsed url   query: null,
+338 verbose parsed url   pathname: '3.0.2',
+338 verbose parsed url   path: '3.0.2',
+338 verbose parsed url   href: '3.0.2' }
+339 verbose addNamed [ 'sqlite3', '3.0.2' ]
+340 verbose addNamed [ '3.0.2', '3.0.2' ]
+341 silly lockFile b65e1446-sqlite3-3-0-2 sqlite3@3.0.2
+342 verbose lock sqlite3@3.0.2 /Users/mikeouellette1/.npm/b65e1446-sqlite3-3-0-2.lock
+343 verbose cache add name="unidecode" spec="0.1.3" args=["unidecode","0.1.3"]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: '0.1.3',
+344 verbose parsed url   path: '0.1.3',
+344 verbose parsed url   href: '0.1.3' }
+345 verbose addNamed [ 'unidecode', '0.1.3' ]
+346 verbose addNamed [ '0.1.3', '0.1.3' ]
+347 silly lockFile a134e945-unidecode-0-1-3 unidecode@0.1.3
+348 verbose lock unidecode@0.1.3 /Users/mikeouellette1/.npm/a134e945-unidecode-0-1-3.lock
+349 verbose cache add name="validator" spec="3.22.1" args=["validator","3.22.1"]
+350 verbose parsed url { protocol: null,
+350 verbose parsed url   slashes: null,
+350 verbose parsed url   auth: null,
+350 verbose parsed url   host: null,
+350 verbose parsed url   port: null,
+350 verbose parsed url   hostname: null,
+350 verbose parsed url   hash: null,
+350 verbose parsed url   search: null,
+350 verbose parsed url   query: null,
+350 verbose parsed url   pathname: '3.22.1',
+350 verbose parsed url   path: '3.22.1',
+350 verbose parsed url   href: '3.22.1' }
+351 verbose addNamed [ 'validator', '3.22.1' ]
+352 verbose addNamed [ '3.22.1', '3.22.1' ]
+353 silly lockFile 35510ec8-validator-3-22-1 validator@3.22.1
+354 verbose lock validator@3.22.1 /Users/mikeouellette1/.npm/35510ec8-validator-3-22-1.lock
+355 verbose cache add name="xml" spec="0.0.12" args=["xml","0.0.12"]
+356 verbose parsed url { protocol: null,
+356 verbose parsed url   slashes: null,
+356 verbose parsed url   auth: null,
+356 verbose parsed url   host: null,
+356 verbose parsed url   port: null,
+356 verbose parsed url   hostname: null,
+356 verbose parsed url   hash: null,
+356 verbose parsed url   search: null,
+356 verbose parsed url   query: null,
+356 verbose parsed url   pathname: '0.0.12',
+356 verbose parsed url   path: '0.0.12',
+356 verbose parsed url   href: '0.0.12' }
+357 verbose addNamed [ 'xml', '0.0.12' ]
+358 verbose addNamed [ '0.0.12', '0.0.12' ]
+359 silly lockFile 9ce99a16-xml-0-0-12 xml@0.0.12
+360 verbose lock xml@0.0.12 /Users/mikeouellette1/.npm/9ce99a16-xml-0-0-12.lock
+361 verbose cache add name="mysql" spec="2.1.1" args=["mysql","2.1.1"]
+362 verbose parsed url { protocol: null,
+362 verbose parsed url   slashes: null,
+362 verbose parsed url   auth: null,
+362 verbose parsed url   host: null,
+362 verbose parsed url   port: null,
+362 verbose parsed url   hostname: null,
+362 verbose parsed url   hash: null,
+362 verbose parsed url   search: null,
+362 verbose parsed url   query: null,
+362 verbose parsed url   pathname: '2.1.1',
+362 verbose parsed url   path: '2.1.1',
+362 verbose parsed url   href: '2.1.1' }
+363 verbose addNamed [ 'mysql', '2.1.1' ]
+364 verbose addNamed [ '2.1.1', '2.1.1' ]
+365 silly lockFile df0a7fd5-mysql-2-1-1 mysql@2.1.1
+366 verbose lock mysql@2.1.1 /Users/mikeouellette1/.npm/df0a7fd5-mysql-2-1-1.lock
+367 verbose cache add name="pg.js" spec="3.6.2" args=["pg.js","3.6.2"]
+368 verbose parsed url { protocol: null,
+368 verbose parsed url   slashes: null,
+368 verbose parsed url   auth: null,
+368 verbose parsed url   host: null,
+368 verbose parsed url   port: null,
+368 verbose parsed url   hostname: null,
+368 verbose parsed url   hash: null,
+368 verbose parsed url   search: null,
+368 verbose parsed url   query: null,
+368 verbose parsed url   pathname: '3.6.2',
+368 verbose parsed url   path: '3.6.2',
+368 verbose parsed url   href: '3.6.2' }
+369 verbose addNamed [ 'pg.js', '3.6.2' ]
+370 verbose addNamed [ '3.6.2', '3.6.2' ]
+371 silly lockFile 95be494a-pg-js-3-6-2 pg.js@3.6.2
+372 verbose lock pg.js@3.6.2 /Users/mikeouellette1/.npm/95be494a-pg-js-3-6-2.lock
+373 verbose request where is /compression
+374 verbose request registry https://registry.npmjs.org/
+375 verbose url raw /compression
+376 verbose url resolving [ 'https://registry.npmjs.org/', './compression' ]
+377 verbose url resolved https://registry.npmjs.org/compression
+378 verbose request where is https://registry.npmjs.org/compression
+379 info trying registry request attempt 1 at 13:22:05
+380 http GET https://registry.npmjs.org/compression
+381 verbose request where is /connect-slashes
+382 verbose request registry https://registry.npmjs.org/
+383 verbose url raw /connect-slashes
+384 verbose url resolving [ 'https://registry.npmjs.org/', './connect-slashes' ]
+385 verbose url resolved https://registry.npmjs.org/connect-slashes
+386 verbose request where is https://registry.npmjs.org/connect-slashes
+387 info trying registry request attempt 1 at 13:22:05
+388 http GET https://registry.npmjs.org/connect-slashes
+389 verbose request where is /downsize
+390 verbose request registry https://registry.npmjs.org/
+391 verbose url raw /downsize
+392 verbose url resolving [ 'https://registry.npmjs.org/', './downsize' ]
+393 verbose url resolved https://registry.npmjs.org/downsize
+394 verbose request where is https://registry.npmjs.org/downsize
+395 info trying registry request attempt 1 at 13:22:05
+396 http GET https://registry.npmjs.org/downsize
+397 verbose request where is /express
+398 verbose request registry https://registry.npmjs.org/
+399 verbose url raw /express
+400 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+401 verbose url resolved https://registry.npmjs.org/express
+402 verbose request where is https://registry.npmjs.org/express
+403 info trying registry request attempt 1 at 13:22:05
+404 http GET https://registry.npmjs.org/express
+405 verbose request where is /express-hbs
+406 verbose request registry https://registry.npmjs.org/
+407 verbose url raw /express-hbs
+408 verbose url resolving [ 'https://registry.npmjs.org/', './express-hbs' ]
+409 verbose url resolved https://registry.npmjs.org/express-hbs
+410 verbose request where is https://registry.npmjs.org/express-hbs
+411 info trying registry request attempt 1 at 13:22:05
+412 http GET https://registry.npmjs.org/express-hbs
+413 verbose request where is /extract-zip
+414 verbose request registry https://registry.npmjs.org/
+415 verbose url raw /extract-zip
+416 verbose url resolving [ 'https://registry.npmjs.org/', './extract-zip' ]
+417 verbose url resolved https://registry.npmjs.org/extract-zip
+418 verbose request where is https://registry.npmjs.org/extract-zip
+419 info trying registry request attempt 1 at 13:22:05
+420 http GET https://registry.npmjs.org/extract-zip
+421 verbose request where is /html-to-text
+422 verbose request registry https://registry.npmjs.org/
+423 verbose url raw /html-to-text
+424 verbose url resolving [ 'https://registry.npmjs.org/', './html-to-text' ]
+425 verbose url resolved https://registry.npmjs.org/html-to-text
+426 verbose request where is https://registry.npmjs.org/html-to-text
+427 info trying registry request attempt 1 at 13:22:05
+428 http GET https://registry.npmjs.org/html-to-text
+429 verbose request where is /knex
+430 verbose request registry https://registry.npmjs.org/
+431 verbose url raw /knex
+432 verbose url resolving [ 'https://registry.npmjs.org/', './knex' ]
+433 verbose url resolved https://registry.npmjs.org/knex
+434 verbose request where is https://registry.npmjs.org/knex
+435 info trying registry request attempt 1 at 13:22:05
+436 http GET https://registry.npmjs.org/knex
+437 verbose request where is /moment
+438 verbose request registry https://registry.npmjs.org/
+439 verbose url raw /moment
+440 verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+441 verbose url resolved https://registry.npmjs.org/moment
+442 verbose request where is https://registry.npmjs.org/moment
+443 info trying registry request attempt 1 at 13:22:05
+444 http GET https://registry.npmjs.org/moment
+445 verbose request where is /morgan
+446 verbose request registry https://registry.npmjs.org/
+447 verbose url raw /morgan
+448 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+449 verbose url resolved https://registry.npmjs.org/morgan
+450 verbose request where is https://registry.npmjs.org/morgan
+451 info trying registry request attempt 1 at 13:22:05
+452 http GET https://registry.npmjs.org/morgan
+453 verbose request where is /nodemailer
+454 verbose request registry https://registry.npmjs.org/
+455 verbose url raw /nodemailer
+456 verbose url resolving [ 'https://registry.npmjs.org/', './nodemailer' ]
+457 verbose url resolved https://registry.npmjs.org/nodemailer
+458 verbose request where is https://registry.npmjs.org/nodemailer
+459 info trying registry request attempt 1 at 13:22:05
+460 http GET https://registry.npmjs.org/nodemailer
+461 verbose request where is /oauth2orize
+462 verbose request registry https://registry.npmjs.org/
+463 verbose url raw /oauth2orize
+464 verbose url resolving [ 'https://registry.npmjs.org/', './oauth2orize' ]
+465 verbose url resolved https://registry.npmjs.org/oauth2orize
+466 verbose request where is https://registry.npmjs.org/oauth2orize
+467 info trying registry request attempt 1 at 13:22:05
+468 http GET https://registry.npmjs.org/oauth2orize
+469 verbose request where is /passport
+470 verbose request registry https://registry.npmjs.org/
+471 verbose url raw /passport
+472 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+473 verbose url resolved https://registry.npmjs.org/passport
+474 verbose request where is https://registry.npmjs.org/passport
+475 info trying registry request attempt 1 at 13:22:05
+476 http GET https://registry.npmjs.org/passport
+477 verbose request where is /passport-http-bearer
+478 verbose request registry https://registry.npmjs.org/
+479 verbose url raw /passport-http-bearer
+480 verbose url resolving [ 'https://registry.npmjs.org/', './passport-http-bearer' ]
+481 verbose url resolved https://registry.npmjs.org/passport-http-bearer
+482 verbose request where is https://registry.npmjs.org/passport-http-bearer
+483 info trying registry request attempt 1 at 13:22:05
+484 http GET https://registry.npmjs.org/passport-http-bearer
+485 verbose request where is /passport-oauth2-client-password
+486 verbose request registry https://registry.npmjs.org/
+487 verbose url raw /passport-oauth2-client-password
+488 verbose url resolving [ 'https://registry.npmjs.org/',
+488 verbose url resolving   './passport-oauth2-client-password' ]
+489 verbose url resolved https://registry.npmjs.org/passport-oauth2-client-password
+490 verbose request where is https://registry.npmjs.org/passport-oauth2-client-password
+491 info trying registry request attempt 1 at 13:22:05
+492 http GET https://registry.npmjs.org/passport-oauth2-client-password
+493 verbose request where is /rss
+494 verbose request registry https://registry.npmjs.org/
+495 verbose url raw /rss
+496 verbose url resolving [ 'https://registry.npmjs.org/', './rss' ]
+497 verbose url resolved https://registry.npmjs.org/rss
+498 verbose request where is https://registry.npmjs.org/rss
+499 info trying registry request attempt 1 at 13:22:05
+500 http GET https://registry.npmjs.org/rss
+501 verbose request where is /showdown-ghost
+502 verbose request registry https://registry.npmjs.org/
+503 verbose url raw /showdown-ghost
+504 verbose url resolving [ 'https://registry.npmjs.org/', './showdown-ghost' ]
+505 verbose url resolved https://registry.npmjs.org/showdown-ghost
+506 verbose request where is https://registry.npmjs.org/showdown-ghost
+507 info trying registry request attempt 1 at 13:22:05
+508 http GET https://registry.npmjs.org/showdown-ghost
+509 verbose request where is /sqlite3
+510 verbose request registry https://registry.npmjs.org/
+511 verbose url raw /sqlite3
+512 verbose url resolving [ 'https://registry.npmjs.org/', './sqlite3' ]
+513 verbose url resolved https://registry.npmjs.org/sqlite3
+514 verbose request where is https://registry.npmjs.org/sqlite3
+515 info trying registry request attempt 1 at 13:22:05
+516 http GET https://registry.npmjs.org/sqlite3
+517 verbose request where is /unidecode
+518 verbose request registry https://registry.npmjs.org/
+519 verbose url raw /unidecode
+520 verbose url resolving [ 'https://registry.npmjs.org/', './unidecode' ]
+521 verbose url resolved https://registry.npmjs.org/unidecode
+522 verbose request where is https://registry.npmjs.org/unidecode
+523 info trying registry request attempt 1 at 13:22:05
+524 http GET https://registry.npmjs.org/unidecode
+525 verbose request where is /xml
+526 verbose request registry https://registry.npmjs.org/
+527 verbose url raw /xml
+528 verbose url resolving [ 'https://registry.npmjs.org/', './xml' ]
+529 verbose url resolved https://registry.npmjs.org/xml
+530 verbose request where is https://registry.npmjs.org/xml
+531 info trying registry request attempt 1 at 13:22:05
+532 http GET https://registry.npmjs.org/xml
+533 verbose request where is /validator
+534 verbose request registry https://registry.npmjs.org/
+535 verbose url raw /validator
+536 verbose url resolving [ 'https://registry.npmjs.org/', './validator' ]
+537 verbose url resolved https://registry.npmjs.org/validator
+538 verbose request where is https://registry.npmjs.org/validator
+539 info trying registry request attempt 1 at 13:22:05
+540 http GET https://registry.npmjs.org/validator
+541 verbose request where is /mysql
+542 verbose request registry https://registry.npmjs.org/
+543 verbose url raw /mysql
+544 verbose url resolving [ 'https://registry.npmjs.org/', './mysql' ]
+545 verbose url resolved https://registry.npmjs.org/mysql
+546 verbose request where is https://registry.npmjs.org/mysql
+547 info trying registry request attempt 1 at 13:22:05
+548 http GET https://registry.npmjs.org/mysql
+549 verbose request where is /pg.js
+550 verbose request registry https://registry.npmjs.org/
+551 verbose url raw /pg.js
+552 verbose url resolving [ 'https://registry.npmjs.org/', './pg.js' ]
+553 verbose url resolved https://registry.npmjs.org/pg.js
+554 verbose request where is https://registry.npmjs.org/pg.js
+555 info trying registry request attempt 1 at 13:22:05
+556 http GET https://registry.npmjs.org/pg.js
+557 verbose request where is /cheerio
+558 verbose request registry https://registry.npmjs.org/
+559 verbose url raw /cheerio
+560 verbose url resolving [ 'https://registry.npmjs.org/', './cheerio' ]
+561 verbose url resolved https://registry.npmjs.org/cheerio
+562 verbose request where is https://registry.npmjs.org/cheerio
+563 info trying registry request attempt 1 at 13:22:05
+564 verbose etag "5OLKZYU2R7MGHQPPDH1KCVX8"
+565 http GET https://registry.npmjs.org/cheerio
+566 verbose request where is /colors
+567 verbose request registry https://registry.npmjs.org/
+568 verbose url raw /colors
+569 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+570 verbose url resolved https://registry.npmjs.org/colors
+571 verbose request where is https://registry.npmjs.org/colors
+572 info trying registry request attempt 1 at 13:22:05
+573 verbose etag "SX821FAEN1Z7DR95BJVQY0QF"
+574 http GET https://registry.npmjs.org/colors
+575 verbose request where is /fs-extra
+576 verbose request registry https://registry.npmjs.org/
+577 verbose url raw /fs-extra
+578 verbose url resolving [ 'https://registry.npmjs.org/', './fs-extra' ]
+579 verbose url resolved https://registry.npmjs.org/fs-extra
+580 verbose request where is https://registry.npmjs.org/fs-extra
+581 info trying registry request attempt 1 at 13:22:05
+582 verbose etag "3AJ19E3C3LGTYIK815D1G7VF4"
+583 http GET https://registry.npmjs.org/fs-extra
+584 verbose request where is /glob
+585 verbose request registry https://registry.npmjs.org/
+586 verbose url raw /glob
+587 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+588 verbose url resolved https://registry.npmjs.org/glob
+589 verbose request where is https://registry.npmjs.org/glob
+590 info trying registry request attempt 1 at 13:22:05
+591 verbose etag "E5STUV67OJEO5SZTH5S94KKHO"
+592 http GET https://registry.npmjs.org/glob
+593 verbose request where is /lodash
+594 verbose request registry https://registry.npmjs.org/
+595 verbose url raw /lodash
+596 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+597 verbose url resolved https://registry.npmjs.org/lodash
+598 verbose request where is https://registry.npmjs.org/lodash
+599 info trying registry request attempt 1 at 13:22:05
+600 verbose etag "BR1H6QL7N7I963NCQSZB1F9UK"
+601 http GET https://registry.npmjs.org/lodash
+602 verbose request where is /node-uuid
+603 verbose request registry https://registry.npmjs.org/
+604 verbose url raw /node-uuid
+605 verbose url resolving [ 'https://registry.npmjs.org/', './node-uuid' ]
+606 verbose url resolved https://registry.npmjs.org/node-uuid
+607 verbose request where is https://registry.npmjs.org/node-uuid
+608 info trying registry request attempt 1 at 13:22:05
+609 verbose etag "4AJT0QIH6ACG9DWT9VNFZEQWT"
+610 http GET https://registry.npmjs.org/node-uuid
+611 verbose request where is /semver
+612 verbose request registry https://registry.npmjs.org/
+613 verbose url raw /semver
+614 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+615 verbose url resolved https://registry.npmjs.org/semver
+616 verbose request where is https://registry.npmjs.org/semver
+617 info trying registry request attempt 1 at 13:22:05
+618 verbose etag "AQLQ3A8CCL2VZ1C1UBYYZ15GT"
+619 http GET https://registry.npmjs.org/semver
+620 verbose request where is /request
+621 verbose request registry https://registry.npmjs.org/
+622 verbose url raw /request
+623 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+624 verbose url resolved https://registry.npmjs.org/request
+625 verbose request where is https://registry.npmjs.org/request
+626 info trying registry request attempt 1 at 13:22:05
+627 verbose etag "A706REIWE95EC2XU0HQK09TVA"
+628 http GET https://registry.npmjs.org/request
+629 http 200 https://registry.npmjs.org/busboy
+630 silly registry.get cb [ 200,
+630 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+630 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+630 silly registry.get     etag: '"CSN6EI6IV8U4DYGAG0SUGI3CN"',
+630 silly registry.get     'content-type': 'application/json',
+630 silly registry.get     'cache-control': 'max-age=60',
+630 silly registry.get     'content-length': '39228',
+630 silly registry.get     'accept-ranges': 'bytes',
+630 silly registry.get     via: '1.1 varnish',
+630 silly registry.get     age: '0',
+630 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+630 silly registry.get     'x-cache': 'HIT',
+630 silly registry.get     'x-cache-hits': '1',
+630 silly registry.get     'x-timer': 'S1418750526.131008,VS0,VE9',
+630 silly registry.get     vary: 'Accept',
+630 silly registry.get     'keep-alive': 'timeout=10, max=50',
+630 silly registry.get     connection: 'Keep-Alive' } ]
+631 silly lockFile 1b3810f7-pmjs-org-busboy-busboy-0-2-8-tgz https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz
+632 verbose lock https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz /Users/mikeouellette1/.npm/1b3810f7-pmjs-org-busboy-busboy-0-2-8-tgz.lock
+633 verbose addRemoteTarball [ 'https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz',
+633 verbose addRemoteTarball   '8e8357b05be7366532234975d735e32a5af57eb5' ]
+634 info retry fetch attempt 1 at 13:22:06
+635 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/busboy/-/busboy-0.2.8.tgz
+636 http GET https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz
+637 http 200 https://registry.npmjs.org/body-parser
+638 silly registry.get cb [ 200,
+638 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+638 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+638 silly registry.get     etag: '"1EF2HB0KLTCR1TH1ST58WRFGJ"',
+638 silly registry.get     'content-type': 'application/json',
+638 silly registry.get     'cache-control': 'max-age=60',
+638 silly registry.get     'content-length': '75777',
+638 silly registry.get     'accept-ranges': 'bytes',
+638 silly registry.get     via: '1.1 varnish',
+638 silly registry.get     age: '34',
+638 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+638 silly registry.get     'x-cache': 'HIT',
+638 silly registry.get     'x-cache-hits': '1',
+638 silly registry.get     'x-timer': 'S1418750526.147614,VS0,VE0',
+638 silly registry.get     vary: 'Accept',
+638 silly registry.get     'keep-alive': 'timeout=10, max=50',
+638 silly registry.get     connection: 'Keep-Alive' } ]
+639 http 200 https://registry.npmjs.org/bcryptjs
+640 silly registry.get cb [ 200,
+640 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+640 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+640 silly registry.get     etag: '"2XK0BWNXDQ6P5UI0Z69JJW5FF"',
+640 silly registry.get     'content-type': 'application/json',
+640 silly registry.get     'cache-control': 'max-age=60',
+640 silly registry.get     'content-length': '43669',
+640 silly registry.get     'accept-ranges': 'bytes',
+640 silly registry.get     via: '1.1 varnish',
+640 silly registry.get     age: '0',
+640 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+640 silly registry.get     'x-cache': 'HIT',
+640 silly registry.get     'x-cache-hits': '1',
+640 silly registry.get     'x-timer': 'S1418750526.121503,VS0,VE83',
+640 silly registry.get     vary: 'Accept',
+640 silly registry.get     'keep-alive': 'timeout=10, max=50',
+640 silly registry.get     connection: 'Keep-Alive' } ]
+641 http 200 https://registry.npmjs.org/compression
+642 silly registry.get cb [ 200,
+642 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+642 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+642 silly registry.get     etag: '"ETIL5QUNDWCAZA5YYD4CK6ABM"',
+642 silly registry.get     'content-type': 'application/json',
+642 silly registry.get     'cache-control': 'max-age=60',
+642 silly registry.get     'content-length': '35458',
+642 silly registry.get     'accept-ranges': 'bytes',
+642 silly registry.get     via: '1.1 varnish',
+642 silly registry.get     age: '35',
+642 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+642 silly registry.get     'x-cache': 'HIT',
+642 silly registry.get     'x-cache-hits': '1',
+642 silly registry.get     'x-timer': 'S1418750526.267004,VS0,VE0',
+642 silly registry.get     vary: 'Accept',
+642 silly registry.get     'keep-alive': 'timeout=10, max=49',
+642 silly registry.get     connection: 'Keep-Alive' } ]
+643 silly lockFile 20f3820a--org-bcryptjs-bcryptjs-2-0-2-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+644 verbose lock https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz /Users/mikeouellette1/.npm/20f3820a--org-bcryptjs-bcryptjs-2-0-2-tgz.lock
+645 verbose addRemoteTarball [ 'https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz',
+645 verbose addRemoteTarball   '1cef0376a70190d3bb584df1c0740dbde2bca747' ]
+646 silly lockFile 2519ffdc-ody-parser-body-parser-1-8-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+647 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz /Users/mikeouellette1/.npm/2519ffdc-ody-parser-body-parser-1-8-2-tgz.lock
+648 info retry fetch attempt 1 at 13:22:06
+649 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+650 http GET https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+651 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz',
+651 verbose addRemoteTarball   'cb55519e748f2ac89bd3c8e34cb759d391c4d67d' ]
+652 info retry fetch attempt 1 at 13:22:06
+653 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+654 silly lockFile ecc4dbf4-ompression-compression-1-2-0-tgz https://registry.npmjs.org/compression/-/compression-1.2.0.tgz
+655 verbose lock https://registry.npmjs.org/compression/-/compression-1.2.0.tgz /Users/mikeouellette1/.npm/ecc4dbf4-ompression-compression-1-2-0-tgz.lock
+656 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+657 verbose addRemoteTarball [ 'https://registry.npmjs.org/compression/-/compression-1.2.0.tgz',
+657 verbose addRemoteTarball   'c6951ca9ad90588ada7617da693c6bbbe8736866' ]
+658 info retry fetch attempt 1 at 13:22:06
+659 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/compression/-/compression-1.2.0.tgz
+660 http GET https://registry.npmjs.org/compression/-/compression-1.2.0.tgz
+661 http 200 https://registry.npmjs.org/bookshelf
+662 silly registry.get cb [ 200,
+662 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+662 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+662 silly registry.get     etag: '"DE3FDH8J6WN5IB0RW8FY6JERL"',
+662 silly registry.get     'content-type': 'application/json',
+662 silly registry.get     'cache-control': 'max-age=60',
+662 silly registry.get     'content-length': '83931',
+662 silly registry.get     'accept-ranges': 'bytes',
+662 silly registry.get     via: '1.1 varnish',
+662 silly registry.get     age: '0',
+662 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+662 silly registry.get     'x-cache': 'HIT',
+662 silly registry.get     'x-cache-hits': '1',
+662 silly registry.get     'x-timer': 'S1418750526.131678,VS0,VE85',
+662 silly registry.get     vary: 'Accept',
+662 silly registry.get     'keep-alive': 'timeout=10, max=50',
+662 silly registry.get     connection: 'Keep-Alive' } ]
+663 silly lockFile 37f3fff7-rg-bookshelf-bookshelf-0-7-9-tgz https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz
+664 verbose lock https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz /Users/mikeouellette1/.npm/37f3fff7-rg-bookshelf-bookshelf-0-7-9-tgz.lock
+665 verbose addRemoteTarball [ 'https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz',
+665 verbose addRemoteTarball   'ee546a2bdd96782ef3a890c6d2d7c2d8c7e5011e' ]
+666 info retry fetch attempt 1 at 13:22:06
+667 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz
+668 http GET https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz
+669 http 200 https://registry.npmjs.org/bluebird
+670 silly registry.get cb [ 200,
+670 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+670 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+670 silly registry.get     etag: '"CMKHJKXWYVAS56MNG4M5O9BFO"',
+670 silly registry.get     'content-type': 'application/json',
+670 silly registry.get     'cache-control': 'max-age=60',
+670 silly registry.get     'content-length': '237017',
+670 silly registry.get     'accept-ranges': 'bytes',
+670 silly registry.get     via: '1.1 varnish',
+670 silly registry.get     age: '4',
+670 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+670 silly registry.get     'x-cache': 'HIT',
+670 silly registry.get     'x-cache-hits': '1',
+670 silly registry.get     'x-timer': 'S1418750526.131542,VS0,VE1',
+670 silly registry.get     vary: 'Accept',
+670 silly registry.get     'keep-alive': 'timeout=10, max=50',
+670 silly registry.get     connection: 'Keep-Alive' } ]
+671 http 200 https://registry.npmjs.org/downsize
+672 silly registry.get cb [ 200,
+672 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+672 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+672 silly registry.get     etag: '"C89N1Q5SAZV286F4O0K3MSAFQ"',
+672 silly registry.get     'content-type': 'application/json',
+672 silly registry.get     'cache-control': 'max-age=60',
+672 silly registry.get     'content-length': '10494',
+672 silly registry.get     'accept-ranges': 'bytes',
+672 silly registry.get     via: '1.1 varnish',
+672 silly registry.get     age: '0',
+672 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+672 silly registry.get     'x-cache': 'MISS',
+672 silly registry.get     'x-cache-hits': '0',
+672 silly registry.get     'x-timer': 'S1418750526.331316,VS0,VE81',
+672 silly registry.get     vary: 'Accept',
+672 silly registry.get     'keep-alive': 'timeout=10, max=49',
+672 silly registry.get     connection: 'Keep-Alive' } ]
+673 silly lockFile c7abeac3-org-bluebird-bluebird-2-3-10-tgz https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz
+674 verbose lock https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz /Users/mikeouellette1/.npm/c7abeac3-org-bluebird-bluebird-2-3-10-tgz.lock
+675 verbose addRemoteTarball [ 'https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz',
+675 verbose addRemoteTarball   'a3d76a6e734f60bda9cf8d8e092c7969d8018beb' ]
+676 silly lockFile b5fb76f2--org-downsize-downsize-0-0-8-tgz https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz
+677 verbose lock https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz /Users/mikeouellette1/.npm/b5fb76f2--org-downsize-downsize-0-0-8-tgz.lock
+678 info retry fetch attempt 1 at 13:22:06
+679 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz
+680 verbose addRemoteTarball [ 'https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz',
+680 verbose addRemoteTarball   '21435a610c8c68220f5cc31474979b4d025f038e' ]
+681 http GET https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz
+682 info retry fetch attempt 1 at 13:22:06
+683 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/downsize/-/downsize-0.0.8.tgz
+684 http GET https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz
+685 http 200 https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz
+686 http 200 https://registry.npmjs.org/extract-zip
+687 silly registry.get cb [ 200,
+687 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+687 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+687 silly registry.get     etag: '"7JOEPI44QRQAA3RDILCUJ7KT5"',
+687 silly registry.get     'content-type': 'application/json',
+687 silly registry.get     'cache-control': 'max-age=60',
+687 silly registry.get     'content-length': '6279',
+687 silly registry.get     'accept-ranges': 'bytes',
+687 silly registry.get     via: '1.1 varnish',
+687 silly registry.get     age: '0',
+687 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+687 silly registry.get     'x-cache': 'MISS',
+687 silly registry.get     'x-cache-hits': '0',
+687 silly registry.get     'x-timer': 'S1418750526.429564,VS0,VE8',
+687 silly registry.get     vary: 'Accept',
+687 silly registry.get     'keep-alive': 'timeout=10, max=49',
+687 silly registry.get     connection: 'Keep-Alive' } ]
+688 silly lockFile 953597ed-xtract-zip-extract-zip-1-0-3-tgz https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz
+689 verbose lock https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz /Users/mikeouellette1/.npm/953597ed-xtract-zip-extract-zip-1-0-3-tgz.lock
+690 verbose addRemoteTarball [ 'https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz',
+690 verbose addRemoteTarball   'cb5b3d11211996413f2c26fe50123e5c0d82008f' ]
+691 info retry fetch attempt 1 at 13:22:06
+692 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz
+693 http GET https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz
+694 http 200 https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+695 silly lockFile 2519ffdc-ody-parser-body-parser-1-8-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+696 silly lockFile 2519ffdc-ody-parser-body-parser-1-8-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.8.2.tgz
+697 silly lockFile 6bf46ddd-body-parser-1-8-2 body-parser@1.8.2
+698 silly lockFile 6bf46ddd-body-parser-1-8-2 body-parser@1.8.2
+699 http 200 https://registry.npmjs.org/compression/-/compression-1.2.0.tgz
+700 http 200 https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+701 silly lockFile ecc4dbf4-ompression-compression-1-2-0-tgz https://registry.npmjs.org/compression/-/compression-1.2.0.tgz
+702 silly lockFile ecc4dbf4-ompression-compression-1-2-0-tgz https://registry.npmjs.org/compression/-/compression-1.2.0.tgz
+703 silly lockFile 6026493a-compression-1-2-0 compression@1.2.0
+704 silly lockFile 6026493a-compression-1-2-0 compression@1.2.0
+705 http 200 https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz
+706 http 200 https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz
+707 http 200 https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz
+708 silly lockFile b5fb76f2--org-downsize-downsize-0-0-8-tgz https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz
+709 silly lockFile b5fb76f2--org-downsize-downsize-0-0-8-tgz https://registry.npmjs.org/downsize/-/downsize-0.0.8.tgz
+710 silly lockFile 7e4464a3-downsize-0-0-8 downsize@0.0.8
+711 silly lockFile 7e4464a3-downsize-0-0-8 downsize@0.0.8
+712 http 200 https://registry.npmjs.org/html-to-text
+713 silly registry.get cb [ 200,
+713 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+713 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+713 silly registry.get     etag: '"7L80F29BIREQJCETOG1ROA32H"',
+713 silly registry.get     'content-type': 'application/json',
+713 silly registry.get     'cache-control': 'max-age=60',
+713 silly registry.get     'content-length': '27079',
+713 silly registry.get     'accept-ranges': 'bytes',
+713 silly registry.get     via: '1.1 varnish',
+713 silly registry.get     age: '0',
+713 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+713 silly registry.get     'x-cache': 'MISS',
+713 silly registry.get     'x-cache-hits': '0',
+713 silly registry.get     'x-timer': 'S1418750526.451217,VS0,VE61',
+713 silly registry.get     vary: 'Accept',
+713 silly registry.get     'keep-alive': 'timeout=10, max=48',
+713 silly registry.get     connection: 'Keep-Alive' } ]
+714 silly lockFile 48f91c78-l-to-text-html-to-text-1-0-0-tgz https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz
+715 verbose lock https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz /Users/mikeouellette1/.npm/48f91c78-l-to-text-html-to-text-1-0-0-tgz.lock
+716 verbose addRemoteTarball [ 'https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz',
+716 verbose addRemoteTarball   'c015a813a54cd0965e65abfb2e586c9781bc1e24' ]
+717 info retry fetch attempt 1 at 13:22:06
+718 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz
+719 http GET https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz
+720 http 200 https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz
+721 silly lockFile 20f3820a--org-bcryptjs-bcryptjs-2-0-2-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+722 silly lockFile 20f3820a--org-bcryptjs-bcryptjs-2-0-2-tgz https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.0.2.tgz
+723 silly lockFile bf657624-bcryptjs-2-0-2 bcryptjs@2.0.2
+724 silly lockFile bf657624-bcryptjs-2-0-2 bcryptjs@2.0.2
+725 http 200 https://registry.npmjs.org/moment
+726 silly registry.get cb [ 200,
+726 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+726 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+726 silly registry.get     etag: '"3AP17NHNWQE6KXYUW5MDXNSVJ"',
+726 silly registry.get     'content-type': 'application/json',
+726 silly registry.get     'cache-control': 'max-age=60',
+726 silly registry.get     'content-length': '50116',
+726 silly registry.get     'accept-ranges': 'bytes',
+726 silly registry.get     via: '1.1 varnish',
+726 silly registry.get     age: '1',
+726 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+726 silly registry.get     'x-cache': 'HIT',
+726 silly registry.get     'x-cache-hits': '2',
+726 silly registry.get     'x-timer': 'S1418750526.565226,VS0,VE0',
+726 silly registry.get     vary: 'Accept',
+726 silly registry.get     'keep-alive': 'timeout=10, max=47',
+726 silly registry.get     connection: 'Keep-Alive' } ]
+727 silly lockFile d4397d1b-pmjs-org-moment-moment-2-8-3-tgz https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+728 verbose lock https://registry.npmjs.org/moment/-/moment-2.8.3.tgz /Users/mikeouellette1/.npm/d4397d1b-pmjs-org-moment-moment-2-8-3-tgz.lock
+729 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.8.3.tgz',
+729 verbose addRemoteTarball   'a01427bf8910f014fc4baa1b8d96f17f7e3f29a2' ]
+730 info retry fetch attempt 1 at 13:22:06
+731 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/moment/-/moment-2.8.3.tgz
+732 http GET https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+733 http 200 https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz
+734 silly lockFile 48f91c78-l-to-text-html-to-text-1-0-0-tgz https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz
+735 silly lockFile 48f91c78-l-to-text-html-to-text-1-0-0-tgz https://registry.npmjs.org/html-to-text/-/html-to-text-1.0.0.tgz
+736 silly lockFile e1756154-html-to-text-1-0-0 html-to-text@1.0.0
+737 silly lockFile e1756154-html-to-text-1-0-0 html-to-text@1.0.0
+738 silly lockFile c7abeac3-org-bluebird-bluebird-2-3-10-tgz https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz
+739 silly lockFile c7abeac3-org-bluebird-bluebird-2-3-10-tgz https://registry.npmjs.org/bluebird/-/bluebird-2.3.10.tgz
+740 silly lockFile 3b199f4c-bluebird-2-3-10 bluebird@2.3.10
+741 silly lockFile 3b199f4c-bluebird-2-3-10 bluebird@2.3.10
+742 silly lockFile 1b3810f7-pmjs-org-busboy-busboy-0-2-8-tgz https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz
+743 silly lockFile 1b3810f7-pmjs-org-busboy-busboy-0-2-8-tgz https://registry.npmjs.org/busboy/-/busboy-0.2.8.tgz
+744 silly lockFile b343f259-busboy-0-2-8 busboy@0.2.8
+745 silly lockFile b343f259-busboy-0-2-8 busboy@0.2.8
+746 http 200 https://registry.npmjs.org/morgan
+747 silly registry.get cb [ 200,
+747 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+747 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+747 silly registry.get     etag: '"5WA5NSQRM4BQPLMFT416OA0VM"',
+747 silly registry.get     'content-type': 'application/json',
+747 silly registry.get     'cache-control': 'max-age=60',
+747 silly registry.get     'content-length': '31793',
+747 silly registry.get     'accept-ranges': 'bytes',
+747 silly registry.get     via: '1.1 varnish',
+747 silly registry.get     age: '36',
+747 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+747 silly registry.get     'x-cache': 'HIT',
+747 silly registry.get     'x-cache-hits': '1',
+747 silly registry.get     'x-timer': 'S1418750526.647218,VS0,VE0',
+747 silly registry.get     vary: 'Accept',
+747 silly registry.get     'keep-alive': 'timeout=10, max=46',
+747 silly registry.get     connection: 'Keep-Alive' } ]
+748 http 200 https://registry.npmjs.org/knex
+749 silly registry.get cb [ 200,
+749 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+749 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+749 silly registry.get     etag: '"BIEEJQ2YQ8R7W2QKKCYW80CB9"',
+749 silly registry.get     'content-type': 'application/json',
+749 silly registry.get     'cache-control': 'max-age=60',
+749 silly registry.get     'content-length': '130397',
+749 silly registry.get     'accept-ranges': 'bytes',
+749 silly registry.get     via: '1.1 varnish',
+749 silly registry.get     age: '0',
+749 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+749 silly registry.get     'x-cache': 'HIT',
+749 silly registry.get     'x-cache-hits': '1',
+749 silly registry.get     'x-timer': 'S1418750526.487775,VS0,VE86',
+749 silly registry.get     vary: 'Accept',
+749 silly registry.get     'keep-alive': 'timeout=10, max=48',
+749 silly registry.get     connection: 'Keep-Alive' } ]
+750 http 200 https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+751 silly lockFile e94bae24-pmjs-org-morgan-morgan-1-3-1-tgz https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+752 verbose lock https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz /Users/mikeouellette1/.npm/e94bae24-pmjs-org-morgan-morgan-1-3-1-tgz.lock
+753 http 200 https://registry.npmjs.org/connect-slashes
+754 silly registry.get cb [ 200,
+754 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+754 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+754 silly registry.get     etag: '"6L3X1ADOIZV2Q5U7XVUEPHXYK"',
+754 silly registry.get     'content-type': 'application/json',
+754 silly registry.get     'cache-control': 'max-age=60',
+754 silly registry.get     'content-length': '10665',
+754 silly registry.get     'accept-ranges': 'bytes',
+754 silly registry.get     via: '1.1 varnish',
+754 silly registry.get     age: '0',
+754 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+754 silly registry.get     'x-cache': 'MISS',
+754 silly registry.get     'x-cache-hits': '0',
+754 silly registry.get     'x-timer': 'S1418750526.331563,VS0,VE350',
+754 silly registry.get     vary: 'Accept',
+754 silly registry.get     'keep-alive': 'timeout=10, max=49',
+754 silly registry.get     connection: 'Keep-Alive' } ]
+755 verbose addRemoteTarball [ 'https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz',
+755 verbose addRemoteTarball   '5c2ae66ef1da03f0ac9f0f42840cca5d8bfec23f' ]
+756 silly lockFile 20c0d45f-ry-npmjs-org-knex-knex-0-7-3-tgz https://registry.npmjs.org/knex/-/knex-0.7.3.tgz
+757 verbose lock https://registry.npmjs.org/knex/-/knex-0.7.3.tgz /Users/mikeouellette1/.npm/20c0d45f-ry-npmjs-org-knex-knex-0-7-3-tgz.lock
+758 verbose addRemoteTarball [ 'https://registry.npmjs.org/knex/-/knex-0.7.3.tgz',
+758 verbose addRemoteTarball   '66036d81c6d6ffea6beaefc2afbf875a64da423a' ]
+759 info retry fetch attempt 1 at 13:22:06
+760 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+761 http GET https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+762 info retry fetch attempt 1 at 13:22:06
+763 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/knex/-/knex-0.7.3.tgz
+764 http GET https://registry.npmjs.org/knex/-/knex-0.7.3.tgz
+765 silly lockFile 9f32aa7e-lashes-connect-slashes-1-2-0-tgz https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz
+766 verbose lock https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz /Users/mikeouellette1/.npm/9f32aa7e-lashes-connect-slashes-1-2-0-tgz.lock
+767 verbose addRemoteTarball [ 'https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz',
+767 verbose addRemoteTarball   '5a83ef77ab6aadf030a4fe48d791756a0e83bdb2' ]
+768 info retry fetch attempt 1 at 13:22:06
+769 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz
+770 http GET https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz
+771 http 200 https://registry.npmjs.org/passport
+772 silly registry.get cb [ 200,
+772 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+772 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+772 silly registry.get     etag: '"7DN7RC29U43VQ7OVS5LE4S3VB"',
+772 silly registry.get     'content-type': 'application/json',
+772 silly registry.get     'cache-control': 'max-age=60',
+772 silly registry.get     'content-length': '33863',
+772 silly registry.get     'accept-ranges': 'bytes',
+772 silly registry.get     via: '1.1 varnish',
+772 silly registry.get     age: '6',
+772 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+772 silly registry.get     'x-cache': 'HIT',
+772 silly registry.get     'x-cache-hits': '1',
+772 silly registry.get     'x-timer': 'S1418750526.723575,VS0,VE0',
+772 silly registry.get     vary: 'Accept',
+772 silly registry.get     'keep-alive': 'timeout=10, max=48',
+772 silly registry.get     connection: 'Keep-Alive' } ]
+773 silly lockFile 227f9132--org-passport-passport-0-2-0-tgz https://registry.npmjs.org/passport/-/passport-0.2.0.tgz
+774 verbose lock https://registry.npmjs.org/passport/-/passport-0.2.0.tgz /Users/mikeouellette1/.npm/227f9132--org-passport-passport-0-2-0-tgz.lock
+775 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport/-/passport-0.2.0.tgz',
+775 verbose addRemoteTarball   'ae5ebc5611300d51fdc44032c7ca442a548dbca5' ]
+776 info retry fetch attempt 1 at 13:22:06
+777 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/passport/-/passport-0.2.0.tgz
+778 http GET https://registry.npmjs.org/passport/-/passport-0.2.0.tgz
+779 http 200 https://registry.npmjs.org/express-hbs
+780 silly registry.get cb [ 200,
+780 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+780 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+780 silly registry.get     etag: '"DGJHB95ZMHV5LZYRA3LP2KRHW"',
+780 silly registry.get     'content-type': 'application/json',
+780 silly registry.get     'cache-control': 'max-age=60',
+780 silly registry.get     'content-length': '36343',
+780 silly registry.get     'accept-ranges': 'bytes',
+780 silly registry.get     via: '1.1 varnish',
+780 silly registry.get     age: '0',
+780 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+780 silly registry.get     'x-cache': 'MISS',
+780 silly registry.get     'x-cache-hits': '0',
+780 silly registry.get     'x-timer': 'S1418750526.397745,VS0,VE350',
+780 silly registry.get     vary: 'Accept',
+780 silly registry.get     'keep-alive': 'timeout=10, max=49',
+780 silly registry.get     connection: 'Keep-Alive' } ]
+781 silly lockFile ff10fc91-press-hbs-express-hbs-0-7-11-tgz https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+782 verbose lock https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz /Users/mikeouellette1/.npm/ff10fc91-press-hbs-express-hbs-0-7-11-tgz.lock
+783 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz',
+783 verbose addRemoteTarball   'a3a74a77a9118ea5c4322a97821d3d6c3a6e1574' ]
+784 info retry fetch attempt 1 at 13:22:06
+785 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+786 http GET https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+787 http 200 https://registry.npmjs.org/express
+788 silly registry.get cb [ 200,
+788 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+788 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+788 silly registry.get     etag: '"65TT9K4J3NQVOQOKPP1GYONRW"',
+788 silly registry.get     'content-type': 'application/json',
+788 silly registry.get     'cache-control': 'max-age=60',
+788 silly registry.get     'content-length': '444415',
+788 silly registry.get     'accept-ranges': 'bytes',
+788 silly registry.get     via: '1.1 varnish',
+788 silly registry.get     age: '5',
+788 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+788 silly registry.get     'x-cache': 'HIT',
+788 silly registry.get     'x-cache-hits': '1',
+788 silly registry.get     'x-timer': 'S1418750526.335038,VS0,VE2',
+788 silly registry.get     vary: 'Accept',
+788 silly registry.get     'keep-alive': 'timeout=10, max=48',
+788 silly registry.get     connection: 'Keep-Alive' } ]
+789 http 200 https://registry.npmjs.org/oauth2orize
+790 silly registry.get cb [ 200,
+790 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+790 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+790 silly registry.get     etag: '"CXNIH5NAM0ZYTASQCLDRVI6NI"',
+790 silly registry.get     'content-type': 'application/json',
+790 silly registry.get     'cache-control': 'max-age=60',
+790 silly registry.get     'content-length': '20477',
+790 silly registry.get     'accept-ranges': 'bytes',
+790 silly registry.get     via: '1.1 varnish',
+790 silly registry.get     age: '0',
+790 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+790 silly registry.get     'x-cache': 'HIT',
+790 silly registry.get     'x-cache-hits': '1',
+790 silly registry.get     'x-timer': 'S1418750526.709567,VS0,VE83',
+790 silly registry.get     vary: 'Accept',
+790 silly registry.get     'keep-alive': 'timeout=10, max=47',
+790 silly registry.get     connection: 'Keep-Alive' } ]
+791 silly lockFile d0bb09e8-s-org-express-express-4-10-2-tgz https://registry.npmjs.org/express/-/express-4.10.2.tgz
+792 verbose lock https://registry.npmjs.org/express/-/express-4.10.2.tgz /Users/mikeouellette1/.npm/d0bb09e8-s-org-express-express-4-10-2-tgz.lock
+793 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.10.2.tgz',
+793 verbose addRemoteTarball   'df06dde94d968932829d440a2004c5efe64495b0' ]
+794 silly lockFile b11233f6-auth2orize-oauth2orize-1-0-1-tgz https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz
+795 verbose lock https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz /Users/mikeouellette1/.npm/b11233f6-auth2orize-oauth2orize-1-0-1-tgz.lock
+796 info retry fetch attempt 1 at 13:22:06
+797 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/express/-/express-4.10.2.tgz
+798 http GET https://registry.npmjs.org/express/-/express-4.10.2.tgz
+799 verbose addRemoteTarball [ 'https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz',
+799 verbose addRemoteTarball   'eceb666b641caf717df43e63511518796c93642d' ]
+800 info retry fetch attempt 1 at 13:22:06
+801 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz
+802 http GET https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz
+803 http 200 https://registry.npmjs.org/passport-http-bearer
+804 silly registry.get cb [ 200,
+804 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+804 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+804 silly registry.get     etag: '"DZVRS4R95LDY1Y2NP0C4TM0F8"',
+804 silly registry.get     'content-type': 'application/json',
+804 silly registry.get     'cache-control': 'max-age=60',
+804 silly registry.get     'content-length': '19713',
+804 silly registry.get     'accept-ranges': 'bytes',
+804 silly registry.get     via: '1.1 varnish',
+804 silly registry.get     age: '0',
+804 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+804 silly registry.get     'x-cache': 'MISS',
+804 silly registry.get     'x-cache-hits': '0',
+804 silly registry.get     'x-timer': 'S1418750526.775960,VS0,VE83',
+804 silly registry.get     vary: 'Accept',
+804 silly registry.get     'keep-alive': 'timeout=10, max=47',
+804 silly registry.get     connection: 'Keep-Alive' } ]
+805 silly lockFile 5f7ad1d0-r-passport-http-bearer-1-0-1-tgz https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz
+806 verbose lock https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz /Users/mikeouellette1/.npm/5f7ad1d0-r-passport-http-bearer-1-0-1-tgz.lock
+807 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz',
+807 verbose addRemoteTarball   '147469ea3669e2a84c6167ef99dbb77e1f0098a8' ]
+808 info retry fetch attempt 1 at 13:22:06
+809 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz
+810 http GET https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz
+811 http 200 https://registry.npmjs.org/passport-oauth2-client-password
+812 silly registry.get cb [ 200,
+812 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+812 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+812 silly registry.get     etag: '"1FV1I3QCA5TUWG0BDRMIIBMQ8"',
+812 silly registry.get     'content-type': 'application/json',
+812 silly registry.get     'cache-control': 'max-age=60',
+812 silly registry.get     'content-length': '7952',
+812 silly registry.get     'accept-ranges': 'bytes',
+812 silly registry.get     via: '1.1 varnish',
+812 silly registry.get     age: '0',
+812 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+812 silly registry.get     'x-cache': 'HIT',
+812 silly registry.get     'x-cache-hits': '1',
+812 silly registry.get     'x-timer': 'S1418750526.797673,VS0,VE85',
+812 silly registry.get     vary: 'Accept',
+812 silly registry.get     'keep-alive': 'timeout=10, max=48',
+812 silly registry.get     connection: 'Keep-Alive' } ]
+813 silly lockFile 973f7013-oauth2-client-password-0-1-1-tgz https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz
+814 verbose lock https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz /Users/mikeouellette1/.npm/973f7013-oauth2-client-password-0-1-1-tgz.lock
+815 verbose addRemoteTarball [ 'https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz',
+815 verbose addRemoteTarball   '4f16e25867628d0ae5a0b2f57c8c9b9b266b20b2' ]
+816 info retry fetch attempt 1 at 13:22:06
+817 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz
+818 http GET https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz
+819 http 200 https://registry.npmjs.org/nodemailer
+820 silly registry.get cb [ 200,
+820 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+820 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+820 silly registry.get     etag: '"1MW4MJIN2QDCE9AG7SJNQF6OB"',
+820 silly registry.get     'content-type': 'application/json',
+820 silly registry.get     'cache-control': 'max-age=60',
+820 silly registry.get     'content-length': '159237',
+820 silly registry.get     'accept-ranges': 'bytes',
+820 silly registry.get     via: '1.1 varnish',
+820 silly registry.get     age: '58',
+820 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+820 silly registry.get     'x-cache': 'HIT',
+820 silly registry.get     'x-cache-hits': '1',
+820 silly registry.get     'x-timer': 'S1418750526.709234,VS0,VE1',
+820 silly registry.get     vary: 'Accept',
+820 silly registry.get     'keep-alive': 'timeout=10, max=45',
+820 silly registry.get     connection: 'Keep-Alive' } ]
+821 http 200 https://registry.npmjs.org/showdown-ghost
+822 silly registry.get cb [ 200,
+822 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+822 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+822 silly registry.get     etag: '"7P4GTHJ3W3UW1O7IMUF9JNGXN"',
+822 silly registry.get     'content-type': 'application/json',
+822 silly registry.get     'cache-control': 'max-age=60',
+822 silly registry.get     'content-length': '16861',
+822 silly registry.get     'accept-ranges': 'bytes',
+822 silly registry.get     via: '1.1 varnish',
+822 silly registry.get     age: '0',
+822 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+822 silly registry.get     'x-cache': 'MISS',
+822 silly registry.get     'x-cache-hits': '0',
+822 silly registry.get     'x-timer': 'S1418750526.885524,VS0,VE21',
+822 silly registry.get     vary: 'Accept',
+822 silly registry.get     'keep-alive': 'timeout=10, max=46',
+822 silly registry.get     connection: 'Keep-Alive' } ]
+823 silly lockFile 655c11d9--nodemailer-nodemailer-0-7-1-tgz https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz
+824 verbose lock https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz /Users/mikeouellette1/.npm/655c11d9--nodemailer-nodemailer-0-7-1-tgz.lock
+825 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz',
+825 verbose addRemoteTarball   '1ec819e243622300a00abe746cb5d3389c0f316c' ]
+826 info retry fetch attempt 1 at 13:22:06
+827 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz
+828 http GET https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz
+829 silly lockFile d30359a5-n-ghost-showdown-ghost-0-3-4-tgz https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz
+830 verbose lock https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz /Users/mikeouellette1/.npm/d30359a5-n-ghost-showdown-ghost-0-3-4-tgz.lock
+831 verbose addRemoteTarball [ 'https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz',
+831 verbose addRemoteTarball   'f73d141f42a76f5ce76b396bae9d42e6f14aca79' ]
+832 info retry fetch attempt 1 at 13:22:06
+833 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz
+834 http GET https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz
+835 http 200 https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+836 http 200 https://registry.npmjs.org/knex/-/knex-0.7.3.tgz
+837 silly lockFile e94bae24-pmjs-org-morgan-morgan-1-3-1-tgz https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+838 silly lockFile e94bae24-pmjs-org-morgan-morgan-1-3-1-tgz https://registry.npmjs.org/morgan/-/morgan-1.3.1.tgz
+839 silly lockFile 7bd73065-morgan-1-3-1 morgan@1.3.1
+840 silly lockFile 7bd73065-morgan-1-3-1 morgan@1.3.1
+841 http 200 https://registry.npmjs.org/rss
+842 silly registry.get cb [ 200,
+842 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+842 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+842 silly registry.get     etag: '"8NCCKEIH6B0WYJF1MA7G5573X"',
+842 silly registry.get     'content-type': 'application/json',
+842 silly registry.get     'cache-control': 'max-age=60',
+842 silly registry.get     'content-length': '25578',
+842 silly registry.get     'accept-ranges': 'bytes',
+842 silly registry.get     via: '1.1 varnish',
+842 silly registry.get     age: '0',
+842 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+842 silly registry.get     'x-cache': 'MISS',
+842 silly registry.get     'x-cache-hits': '0',
+842 silly registry.get     'x-timer': 'S1418750526.865100,VS0,VE85',
+842 silly registry.get     vary: 'Accept',
+842 silly registry.get     'keep-alive': 'timeout=10, max=47',
+842 silly registry.get     connection: 'Keep-Alive' } ]
+843 http 200 https://registry.npmjs.org/unidecode
+844 silly registry.get cb [ 200,
+844 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+844 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+844 silly registry.get     etag: '"DYDH6RDBI9XXHKZU0497B3ISS"',
+844 silly registry.get     'content-type': 'application/json',
+844 silly registry.get     'cache-control': 'max-age=60',
+844 silly registry.get     'content-length': '6245',
+844 silly registry.get     'accept-ranges': 'bytes',
+844 silly registry.get     via: '1.1 varnish',
+844 silly registry.get     age: '0',
+844 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+844 silly registry.get     'x-cache': 'MISS',
+844 silly registry.get     'x-cache-hits': '0',
+844 silly registry.get     'x-timer': 'S1418750526.945668,VS0,VE8',
+844 silly registry.get     vary: 'Accept',
+844 silly registry.get     'keep-alive': 'timeout=10, max=47',
+844 silly registry.get     connection: 'Keep-Alive' } ]
+845 silly lockFile 7fe86235-stry-npmjs-org-rss-rss-1-0-0-tgz https://registry.npmjs.org/rss/-/rss-1.0.0.tgz
+846 verbose lock https://registry.npmjs.org/rss/-/rss-1.0.0.tgz /Users/mikeouellette1/.npm/7fe86235-stry-npmjs-org-rss-rss-1-0-0-tgz.lock
+847 verbose addRemoteTarball [ 'https://registry.npmjs.org/rss/-/rss-1.0.0.tgz',
+847 verbose addRemoteTarball   '7d87895f6010479388e95e5d7dfb569efc698f0a' ]
+848 info retry fetch attempt 1 at 13:22:06
+849 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/rss/-/rss-1.0.0.tgz
+850 silly lockFile 48077744-rg-unidecode-unidecode-0-1-3-tgz https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz
+851 verbose lock https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz /Users/mikeouellette1/.npm/48077744-rg-unidecode-unidecode-0-1-3-tgz.lock
+852 http GET https://registry.npmjs.org/rss/-/rss-1.0.0.tgz
+853 verbose addRemoteTarball [ 'https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz',
+853 verbose addRemoteTarball   '2628e2c5f49901646647a5774c40c4f7e033cf8c' ]
+854 info retry fetch attempt 1 at 13:22:06
+855 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz
+856 http GET https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz
+857 silly lockFile 953597ed-xtract-zip-extract-zip-1-0-3-tgz https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz
+858 silly lockFile 953597ed-xtract-zip-extract-zip-1-0-3-tgz https://registry.npmjs.org/extract-zip/-/extract-zip-1.0.3.tgz
+859 silly lockFile 2a4dc43f-extract-zip-1-0-3 extract-zip@1.0.3
+860 silly lockFile 2a4dc43f-extract-zip-1-0-3 extract-zip@1.0.3
+861 silly lockFile 37f3fff7-rg-bookshelf-bookshelf-0-7-9-tgz https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz
+862 silly lockFile 37f3fff7-rg-bookshelf-bookshelf-0-7-9-tgz https://registry.npmjs.org/bookshelf/-/bookshelf-0.7.9.tgz
+863 silly lockFile 749b55e6-bookshelf-0-7-9 bookshelf@0.7.9
+864 silly lockFile 749b55e6-bookshelf-0-7-9 bookshelf@0.7.9
+865 http 200 https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz
+866 silly lockFile 9f32aa7e-lashes-connect-slashes-1-2-0-tgz https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz
+867 silly lockFile 9f32aa7e-lashes-connect-slashes-1-2-0-tgz https://registry.npmjs.org/connect-slashes/-/connect-slashes-1.2.0.tgz
+868 silly lockFile af24efd4-connect-slashes-1-2-0 connect-slashes@1.2.0
+869 silly lockFile af24efd4-connect-slashes-1-2-0 connect-slashes@1.2.0
+870 http 200 https://registry.npmjs.org/pg.js
+871 silly registry.get cb [ 200,
+871 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+871 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+871 silly registry.get     etag: '"DETX7F7YVSFCVGKQDNW9BXEU2"',
+871 silly registry.get     'content-type': 'application/json',
+871 silly registry.get     'cache-control': 'max-age=60',
+871 silly registry.get     'content-length': '28152',
+871 silly registry.get     'accept-ranges': 'bytes',
+871 silly registry.get     via: '1.1 varnish',
+871 silly registry.get     age: '0',
+871 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+871 silly registry.get     'x-cache': 'HIT',
+871 silly registry.get     'x-cache-hits': '1',
+871 silly registry.get     'x-timer': 'S1418750526.999627,VS0,VE9',
+871 silly registry.get     vary: 'Accept',
+871 silly registry.get     'keep-alive': 'timeout=10, max=46',
+871 silly registry.get     connection: 'Keep-Alive' } ]
+872 silly lockFile 697781d1--npmjs-org-pg-js-pg-js-3-6-2-tgz https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz
+873 verbose lock https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz /Users/mikeouellette1/.npm/697781d1--npmjs-org-pg-js-pg-js-3-6-2-tgz.lock
+874 verbose addRemoteTarball [ 'https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz',
+874 verbose addRemoteTarball   'c802b980afaf459cfd2f182e5bb778d0c8bfb557' ]
+875 info retry fetch attempt 1 at 13:22:06
+876 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz
+877 http GET https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz
+878 http 200 https://registry.npmjs.org/passport/-/passport-0.2.0.tgz
+879 http 200 https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+880 silly lockFile 227f9132--org-passport-passport-0-2-0-tgz https://registry.npmjs.org/passport/-/passport-0.2.0.tgz
+881 silly lockFile 227f9132--org-passport-passport-0-2-0-tgz https://registry.npmjs.org/passport/-/passport-0.2.0.tgz
+882 silly lockFile 315c7a7b-passport-0-2-0 passport@0.2.0
+883 silly lockFile 315c7a7b-passport-0-2-0 passport@0.2.0
+884 silly lockFile ff10fc91-press-hbs-express-hbs-0-7-11-tgz https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+885 silly lockFile ff10fc91-press-hbs-express-hbs-0-7-11-tgz https://registry.npmjs.org/express-hbs/-/express-hbs-0.7.11.tgz
+886 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+887 silly lockFile 82d18d62-express-hbs-0-7-11 express-hbs@0.7.11
+888 http 200 https://registry.npmjs.org/express/-/express-4.10.2.tgz
+889 http 304 https://registry.npmjs.org/cheerio
+890 silly registry.get cb [ 304,
+890 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+890 silly registry.get     server: 'Apache',
+890 silly registry.get     via: '1.1 varnish',
+890 silly registry.get     'last-modified': 'Tue, 16 Dec 2014 17:22:07 GMT',
+890 silly registry.get     'cache-control': 'max-age=60',
+890 silly registry.get     etag: '"5OLKZYU2R7MGHQPPDH1KCVX8"',
+890 silly registry.get     age: '1',
+890 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+890 silly registry.get     'x-cache': 'HIT',
+890 silly registry.get     'x-cache-hits': '1',
+890 silly registry.get     'x-timer': 'S1418750527.039887,VS0,VE0',
+890 silly registry.get     vary: 'Accept',
+890 silly registry.get     'content-length': '0',
+890 silly registry.get     'keep-alive': 'timeout=10, max=45',
+890 silly registry.get     connection: 'Keep-Alive' } ]
+891 verbose etag https://registry.npmjs.org/cheerio from cache
+892 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+893 silly lockFile 26cb7f10-cheerio-0-17-0 cheerio@0.17.0
+894 http 200 https://registry.npmjs.org/xml
+895 silly registry.get cb [ 200,
+895 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+895 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+895 silly registry.get     etag: '"AWBAXG8I1JMOAF6HXBPGTRG5M"',
+895 silly registry.get     'content-type': 'application/json',
+895 silly registry.get     'cache-control': 'max-age=60',
+895 silly registry.get     'content-length': '20232',
+895 silly registry.get     'accept-ranges': 'bytes',
+895 silly registry.get     via: '1.1 varnish',
+895 silly registry.get     age: '0',
+895 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+895 silly registry.get     'x-cache': 'HIT',
+895 silly registry.get     'x-cache-hits': '1',
+895 silly registry.get     'x-timer': 'S1418750526.993468,VS0,VE82',
+895 silly registry.get     vary: 'Accept',
+895 silly registry.get     'keep-alive': 'timeout=10, max=44',
+895 silly registry.get     connection: 'Keep-Alive' } ]
+896 http 200 https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz
+897 silly lockFile b11233f6-auth2orize-oauth2orize-1-0-1-tgz https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz
+898 silly lockFile b11233f6-auth2orize-oauth2orize-1-0-1-tgz https://registry.npmjs.org/oauth2orize/-/oauth2orize-1.0.1.tgz
+899 silly lockFile 8bc541ef-oauth2orize-1-0-1 oauth2orize@1.0.1
+900 silly lockFile 8bc541ef-oauth2orize-1-0-1 oauth2orize@1.0.1
+901 silly lockFile 447474e6-try-npmjs-org-xml-xml-0-0-12-tgz https://registry.npmjs.org/xml/-/xml-0.0.12.tgz
+902 verbose lock https://registry.npmjs.org/xml/-/xml-0.0.12.tgz /Users/mikeouellette1/.npm/447474e6-try-npmjs-org-xml-xml-0-0-12-tgz.lock
+903 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml/-/xml-0.0.12.tgz',
+903 verbose addRemoteTarball   'f08b347109912be00285785f46f15ad8e50a5f67' ]
+904 info retry fetch attempt 1 at 13:22:07
+905 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/xml/-/xml-0.0.12.tgz
+906 http GET https://registry.npmjs.org/xml/-/xml-0.0.12.tgz
+907 http 200 https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz
+908 silly lockFile 5f7ad1d0-r-passport-http-bearer-1-0-1-tgz https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz
+909 silly lockFile 5f7ad1d0-r-passport-http-bearer-1-0-1-tgz https://registry.npmjs.org/passport-http-bearer/-/passport-http-bearer-1.0.1.tgz
+910 silly lockFile 131bdcb0-passport-http-bearer-1-0-1 passport-http-bearer@1.0.1
+911 silly lockFile 131bdcb0-passport-http-bearer-1-0-1 passport-http-bearer@1.0.1
+912 silly lockFile d4397d1b-pmjs-org-moment-moment-2-8-3-tgz https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+913 silly lockFile d4397d1b-pmjs-org-moment-moment-2-8-3-tgz https://registry.npmjs.org/moment/-/moment-2.8.3.tgz
+914 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+915 silly lockFile 707ecd2d-moment-2-8-3 moment@2.8.3
+916 http 200 https://registry.npmjs.org/validator
+917 silly registry.get cb [ 200,
+917 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+917 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+917 silly registry.get     etag: '"4Q69F4L1P5TNSGCSULT2LXGYF"',
+917 silly registry.get     'content-type': 'application/json',
+917 silly registry.get     'cache-control': 'max-age=60',
+917 silly registry.get     'content-length': '144765',
+917 silly registry.get     'accept-ranges': 'bytes',
+917 silly registry.get     via: '1.1 varnish',
+917 silly registry.get     age: '0',
+917 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+917 silly registry.get     'x-cache': 'HIT',
+917 silly registry.get     'x-cache-hits': '1',
+917 silly registry.get     'x-timer': 'S1418750526.993685,VS0,VE25',
+917 silly registry.get     vary: 'Accept',
+917 silly registry.get     'keep-alive': 'timeout=10, max=45',
+917 silly registry.get     connection: 'Keep-Alive' } ]
+918 http 200 https://registry.npmjs.org/mysql
+919 silly registry.get cb [ 200,
+919 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:06 GMT',
+919 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+919 silly registry.get     etag: '"40Z4F7DP7N7SIY93QZMTWKY26"',
+919 silly registry.get     'content-type': 'application/json',
+919 silly registry.get     'cache-control': 'max-age=60',
+919 silly registry.get     'content-length': '98189',
+919 silly registry.get     'accept-ranges': 'bytes',
+919 silly registry.get     via: '1.1 varnish',
+919 silly registry.get     age: '58',
+919 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+919 silly registry.get     'x-cache': 'HIT',
+919 silly registry.get     'x-cache-hits': '2',
+919 silly registry.get     'x-timer': 'S1418750526.997076,VS0,VE0',
+919 silly registry.get     vary: 'Accept',
+919 silly registry.get     'keep-alive': 'timeout=10, max=46',
+919 silly registry.get     connection: 'Keep-Alive' } ]
+920 silly lockFile 4a8a7076--npmjs-org-mysql-mysql-2-1-1-tgz https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz
+921 verbose lock https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz /Users/mikeouellette1/.npm/4a8a7076--npmjs-org-mysql-mysql-2-1-1-tgz.lock
+922 http 200 https://registry.npmjs.org/colors
+923 silly registry.get cb [ 200,
+923 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+923 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+923 silly registry.get     etag: '"AFU8X98CPKJLQ8A9RFL3XQZUU"',
+923 silly registry.get     'content-type': 'application/json',
+923 silly registry.get     'cache-control': 'max-age=60',
+923 silly registry.get     'content-length': '15542',
+923 silly registry.get     'accept-ranges': 'bytes',
+923 silly registry.get     via: '1.1 varnish',
+923 silly registry.get     age: '6',
+923 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+923 silly registry.get     'x-cache': 'HIT',
+923 silly registry.get     'x-cache-hits': '1',
+923 silly registry.get     'x-timer': 'S1418750527.151585,VS0,VE0',
+923 silly registry.get     vary: 'Accept',
+923 silly registry.get     'keep-alive': 'timeout=10, max=44',
+923 silly registry.get     connection: 'Keep-Alive' } ]
+924 http 200 https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz
+925 verbose addRemoteTarball [ 'https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz',
+925 verbose addRemoteTarball   '3ec79b945dee2830fc995515e551a54dceac8383' ]
+926 silly lockFile e6531c1e-g-validator-validator-3-22-1-tgz https://registry.npmjs.org/validator/-/validator-3.22.1.tgz
+927 verbose lock https://registry.npmjs.org/validator/-/validator-3.22.1.tgz /Users/mikeouellette1/.npm/e6531c1e-g-validator-validator-3-22-1-tgz.lock
+928 info retry fetch attempt 1 at 13:22:07
+929 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/mysql/-/mysql-2.1.1.tgz
+930 verbose addRemoteTarball [ 'https://registry.npmjs.org/validator/-/validator-3.22.1.tgz',
+930 verbose addRemoteTarball   '7d53c56ff87b3f894e024843b3afdbb88b8aeb29' ]
+931 http GET https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz
+932 info retry fetch attempt 1 at 13:22:07
+933 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/validator/-/validator-3.22.1.tgz
+934 http GET https://registry.npmjs.org/validator/-/validator-3.22.1.tgz
+935 silly lockFile ab5efc36-pmjs-org-colors-colors-0-6-2-tgz https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+936 verbose lock https://registry.npmjs.org/colors/-/colors-0.6.2.tgz /Users/mikeouellette1/.npm/ab5efc36-pmjs-org-colors-colors-0-6-2-tgz.lock
+937 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.6.2.tgz',
+937 verbose addRemoteTarball   '2423fe6678ac0c5dae8852e5d0e5be08c997abcc' ]
+938 info retry fetch attempt 1 at 13:22:07
+939 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/colors/-/colors-0.6.2.tgz
+940 http GET https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+941 http 200 https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz
+942 silly lockFile 973f7013-oauth2-client-password-0-1-1-tgz https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz
+943 silly lockFile 973f7013-oauth2-client-password-0-1-1-tgz https://registry.npmjs.org/passport-oauth2-client-password/-/passport-oauth2-client-password-0.1.1.tgz
+944 silly lockFile 63c8108a-ort-oauth2-client-password-0-1-1 passport-oauth2-client-password@0.1.1
+945 silly lockFile 63c8108a-ort-oauth2-client-password-0-1-1 passport-oauth2-client-password@0.1.1
+946 silly lockFile 655c11d9--nodemailer-nodemailer-0-7-1-tgz https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz
+947 silly lockFile 655c11d9--nodemailer-nodemailer-0-7-1-tgz https://registry.npmjs.org/nodemailer/-/nodemailer-0.7.1.tgz
+948 silly lockFile 6823eb56-nodemailer-0-7-1 nodemailer@0.7.1
+949 silly lockFile 6823eb56-nodemailer-0-7-1 nodemailer@0.7.1
+950 http 200 https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz
+951 silly lockFile d0bb09e8-s-org-express-express-4-10-2-tgz https://registry.npmjs.org/express/-/express-4.10.2.tgz
+952 silly lockFile d0bb09e8-s-org-express-express-4-10-2-tgz https://registry.npmjs.org/express/-/express-4.10.2.tgz
+953 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+954 silly lockFile 787e98b4-express-4-10-2 express@4.10.2
+955 http 200 https://registry.npmjs.org/node-uuid
+956 silly registry.get cb [ 200,
+956 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+956 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+956 silly registry.get     etag: '"6C0HA6PRM4MQ893RD301SYLG3"',
+956 silly registry.get     'content-type': 'application/json',
+956 silly registry.get     'cache-control': 'max-age=60',
+956 silly registry.get     'content-length': '18604',
+956 silly registry.get     'accept-ranges': 'bytes',
+956 silly registry.get     via: '1.1 varnish',
+956 silly registry.get     age: '30',
+956 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+956 silly registry.get     'x-cache': 'HIT',
+956 silly registry.get     'x-cache-hits': '2',
+956 silly registry.get     'x-timer': 'S1418750527.259526,VS0,VE0',
+956 silly registry.get     vary: 'Accept',
+956 silly registry.get     'keep-alive': 'timeout=10, max=43',
+956 silly registry.get     connection: 'Keep-Alive' } ]
+957 http 200 https://registry.npmjs.org/fs-extra
+958 silly registry.get cb [ 200,
+958 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+958 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+958 silly registry.get     etag: '"45636DSWN6TJEM21H9M1UAHEV"',
+958 silly registry.get     'content-type': 'application/json',
+958 silly registry.get     'cache-control': 'max-age=60',
+958 silly registry.get     'content-length': '51823',
+958 silly registry.get     'accept-ranges': 'bytes',
+958 silly registry.get     via: '1.1 varnish',
+958 silly registry.get     age: '28',
+958 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+958 silly registry.get     'x-cache': 'HIT',
+958 silly registry.get     'x-cache-hits': '1',
+958 silly registry.get     'x-timer': 'S1418750527.177442,VS0,VE0',
+958 silly registry.get     vary: 'Accept',
+958 silly registry.get     'keep-alive': 'timeout=10, max=43',
+958 silly registry.get     connection: 'Keep-Alive' } ]
+959 silly lockFile 1287aac8-rg-node-uuid-node-uuid-1-4-1-tgz https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz
+960 verbose lock https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz /Users/mikeouellette1/.npm/1287aac8-rg-node-uuid-node-uuid-1-4-1-tgz.lock
+961 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz',
+961 verbose addRemoteTarball   '39aef510e5889a3dca9c895b506c73aae1bac048' ]
+962 silly lockFile 0e8267e3-org-fs-extra-fs-extra-0-12-0-tgz https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz
+963 verbose lock https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz /Users/mikeouellette1/.npm/0e8267e3-org-fs-extra-fs-extra-0-12-0-tgz.lock
+964 info retry fetch attempt 1 at 13:22:07
+965 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz
+966 http GET https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz
+967 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz',
+967 verbose addRemoteTarball   '407cf6e11321e440d66f9486fba1cc9eb4c21868' ]
+968 info retry fetch attempt 1 at 13:22:07
+969 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz
+970 http GET https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz
+971 http 200 https://registry.npmjs.org/rss/-/rss-1.0.0.tgz
+972 http 200 https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz
+973 silly lockFile 7fe86235-stry-npmjs-org-rss-rss-1-0-0-tgz https://registry.npmjs.org/rss/-/rss-1.0.0.tgz
+974 silly lockFile 7fe86235-stry-npmjs-org-rss-rss-1-0-0-tgz https://registry.npmjs.org/rss/-/rss-1.0.0.tgz
+975 silly lockFile 9b08ad12-rss-1-0-0 rss@1.0.0
+976 silly lockFile 9b08ad12-rss-1-0-0 rss@1.0.0
+977 http 200 https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz
+978 silly lockFile 697781d1--npmjs-org-pg-js-pg-js-3-6-2-tgz https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz
+979 silly lockFile 697781d1--npmjs-org-pg-js-pg-js-3-6-2-tgz https://registry.npmjs.org/pg.js/-/pg.js-3.6.2.tgz
+980 http 200 https://registry.npmjs.org/glob
+981 silly registry.get cb [ 200,
+981 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+981 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+981 silly registry.get     etag: '"8D2IXSQNVEZ6F7P23D4LF79GW"',
+981 silly registry.get     'content-type': 'application/json',
+981 silly registry.get     'cache-control': 'max-age=60',
+981 silly registry.get     'content-length': '73931',
+981 silly registry.get     'accept-ranges': 'bytes',
+981 silly registry.get     via: '1.1 varnish',
+981 silly registry.get     age: '17',
+981 silly registry.get     'x-served-by': 'cache-iad2131-IAD',
+981 silly registry.get     'x-cache': 'HIT',
+981 silly registry.get     'x-cache-hits': '2',
+981 silly registry.get     'x-timer': 'S1418750527.235561,VS0,VE0',
+981 silly registry.get     vary: 'Accept',
+981 silly registry.get     'keep-alive': 'timeout=10, max=44',
+981 silly registry.get     connection: 'Keep-Alive' } ]
+982 silly lockFile d30359a5-n-ghost-showdown-ghost-0-3-4-tgz https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz
+983 silly lockFile d30359a5-n-ghost-showdown-ghost-0-3-4-tgz https://registry.npmjs.org/showdown-ghost/-/showdown-ghost-0.3.4.tgz
+984 silly lockFile 95be494a-pg-js-3-6-2 pg.js@3.6.2
+985 silly lockFile 95be494a-pg-js-3-6-2 pg.js@3.6.2
+986 silly lockFile 00b4bbdf-showdown-ghost-0-3-4 showdown-ghost@0.3.4
+987 silly lockFile 00b4bbdf-showdown-ghost-0-3-4 showdown-ghost@0.3.4
+988 silly lockFile 127f3393-ry-npmjs-org-glob-glob-4-3-1-tgz https://registry.npmjs.org/glob/-/glob-4.3.1.tgz
+989 verbose lock https://registry.npmjs.org/glob/-/glob-4.3.1.tgz /Users/mikeouellette1/.npm/127f3393-ry-npmjs-org-glob-glob-4-3-1-tgz.lock
+990 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-4.3.1.tgz',
+990 verbose addRemoteTarball   '9d09096f89b4d30949e784e83f312af3ca04ec14' ]
+991 info retry fetch attempt 1 at 13:22:07
+992 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/glob/-/glob-4.3.1.tgz
+993 http GET https://registry.npmjs.org/glob/-/glob-4.3.1.tgz
+994 http 304 https://registry.npmjs.org/semver
+995 silly registry.get cb [ 304,
+995 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+995 silly registry.get     server: 'Apache',
+995 silly registry.get     via: '1.1 varnish',
+995 silly registry.get     'last-modified': 'Tue, 16 Dec 2014 17:22:07 GMT',
+995 silly registry.get     'cache-control': 'max-age=60',
+995 silly registry.get     etag: '"AQLQ3A8CCL2VZ1C1UBYYZ15GT"',
+995 silly registry.get     age: '36',
+995 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+995 silly registry.get     'x-cache': 'HIT',
+995 silly registry.get     'x-cache-hits': '1',
+995 silly registry.get     'x-timer': 'S1418750527.361603,VS0,VE0',
+995 silly registry.get     vary: 'Accept',
+995 silly registry.get     'content-length': '0',
+995 silly registry.get     'keep-alive': 'timeout=10, max=42',
+995 silly registry.get     connection: 'Keep-Alive' } ]
+996 verbose etag https://registry.npmjs.org/semver from cache
+997 silly lockFile 5727bb2f-semver-4-1-0 semver@4.1.0
+998 silly lockFile 5727bb2f-semver-4-1-0 semver@4.1.0
+999 http 200 https://registry.npmjs.org/xml/-/xml-0.0.12.tgz
+1000 silly lockFile 447474e6-try-npmjs-org-xml-xml-0-0-12-tgz https://registry.npmjs.org/xml/-/xml-0.0.12.tgz
+1001 silly lockFile 447474e6-try-npmjs-org-xml-xml-0-0-12-tgz https://registry.npmjs.org/xml/-/xml-0.0.12.tgz
+1002 silly lockFile 9ce99a16-xml-0-0-12 xml@0.0.12
+1003 silly lockFile 9ce99a16-xml-0-0-12 xml@0.0.12
+1004 silly lockFile 48077744-rg-unidecode-unidecode-0-1-3-tgz https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz
+1005 silly lockFile 48077744-rg-unidecode-unidecode-0-1-3-tgz https://registry.npmjs.org/unidecode/-/unidecode-0.1.3.tgz
+1006 silly lockFile a134e945-unidecode-0-1-3 unidecode@0.1.3
+1007 silly lockFile a134e945-unidecode-0-1-3 unidecode@0.1.3
+1008 http 200 https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz
+1009 http 200 https://registry.npmjs.org/validator/-/validator-3.22.1.tgz
+1010 silly lockFile e6531c1e-g-validator-validator-3-22-1-tgz https://registry.npmjs.org/validator/-/validator-3.22.1.tgz
+1011 silly lockFile e6531c1e-g-validator-validator-3-22-1-tgz https://registry.npmjs.org/validator/-/validator-3.22.1.tgz
+1012 silly lockFile 4a8a7076--npmjs-org-mysql-mysql-2-1-1-tgz https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz
+1013 silly lockFile 4a8a7076--npmjs-org-mysql-mysql-2-1-1-tgz https://registry.npmjs.org/mysql/-/mysql-2.1.1.tgz
+1014 silly lockFile 35510ec8-validator-3-22-1 validator@3.22.1
+1015 silly lockFile 35510ec8-validator-3-22-1 validator@3.22.1
+1016 silly lockFile df0a7fd5-mysql-2-1-1 mysql@2.1.1
+1017 silly lockFile df0a7fd5-mysql-2-1-1 mysql@2.1.1
+1018 http 200 https://registry.npmjs.org/lodash
+1019 silly registry.get cb [ 200,
+1019 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+1019 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1019 silly registry.get     etag: '"1RU7M5216X01WCCUWG1TEKOCQ"',
+1019 silly registry.get     'content-type': 'application/json',
+1019 silly registry.get     'cache-control': 'max-age=60',
+1019 silly registry.get     'content-length': '74555',
+1019 silly registry.get     'accept-ranges': 'bytes',
+1019 silly registry.get     via: '1.1 varnish',
+1019 silly registry.get     age: '17',
+1019 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+1019 silly registry.get     'x-cache': 'HIT',
+1019 silly registry.get     'x-cache-hits': '1',
+1019 silly registry.get     'x-timer': 'S1418750527.239042,VS0,VE0',
+1019 silly registry.get     vary: 'Accept',
+1019 silly registry.get     'keep-alive': 'timeout=10, max=45',
+1019 silly registry.get     connection: 'Keep-Alive' } ]
+1020 silly lockFile 0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+1021 verbose lock https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz /Users/mikeouellette1/.npm/0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz.lock
+1022 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+1022 verbose addRemoteTarball   '5b7723034dda4d262e5a46fb2c58d7cc22f71420' ]
+1023 info retry fetch attempt 1 at 13:22:07
+1024 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+1025 http GET https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+1026 http 200 https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1027 http 200 https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz
+1028 silly lockFile ab5efc36-pmjs-org-colors-colors-0-6-2-tgz https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1029 silly lockFile ab5efc36-pmjs-org-colors-colors-0-6-2-tgz https://registry.npmjs.org/colors/-/colors-0.6.2.tgz
+1030 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+1031 silly lockFile 1ce149d5-colors-0-6-2 colors@0.6.2
+1032 http 200 https://registry.npmjs.org/sqlite3
+1033 silly registry.get cb [ 200,
+1033 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+1033 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1033 silly registry.get     etag: '"GZNFFN8AQ7LJC3069SH3DFBG"',
+1033 silly registry.get     'content-type': 'application/json',
+1033 silly registry.get     'cache-control': 'max-age=60',
+1033 silly registry.get     'content-length': '101191',
+1033 silly registry.get     'accept-ranges': 'bytes',
+1033 silly registry.get     via: '1.1 varnish',
+1033 silly registry.get     age: '0',
+1033 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+1033 silly registry.get     'x-cache': 'HIT',
+1033 silly registry.get     'x-cache-hits': '1',
+1033 silly registry.get     'x-timer': 'S1418750526.929612,VS0,VE387',
+1033 silly registry.get     vary: 'Accept',
+1033 silly registry.get     'keep-alive': 'timeout=10, max=46',
+1033 silly registry.get     connection: 'Keep-Alive' } ]
+1034 http 200 https://registry.npmjs.org/glob/-/glob-4.3.1.tgz
+1035 http 200 https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz
+1036 silly lockFile 1287aac8-rg-node-uuid-node-uuid-1-4-1-tgz https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz
+1037 silly lockFile 1287aac8-rg-node-uuid-node-uuid-1-4-1-tgz https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.1.tgz
+1038 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+1039 silly lockFile 7c2028cd-node-uuid-1-4-1 node-uuid@1.4.1
+1040 silly lockFile 0e8267e3-org-fs-extra-fs-extra-0-12-0-tgz https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz
+1041 silly lockFile 0e8267e3-org-fs-extra-fs-extra-0-12-0-tgz https://registry.npmjs.org/fs-extra/-/fs-extra-0.12.0.tgz
+1042 silly lockFile c8267045-fs-extra-0-12-0 fs-extra@0.12.0
+1043 silly lockFile c8267045-fs-extra-0-12-0 fs-extra@0.12.0
+1044 silly lockFile 127f3393-ry-npmjs-org-glob-glob-4-3-1-tgz https://registry.npmjs.org/glob/-/glob-4.3.1.tgz
+1045 silly lockFile 127f3393-ry-npmjs-org-glob-glob-4-3-1-tgz https://registry.npmjs.org/glob/-/glob-4.3.1.tgz
+1046 silly lockFile 59951906-glob-4-3-1 glob@4.3.1
+1047 silly lockFile 59951906-glob-4-3-1 glob@4.3.1
+1048 silly lockFile 20c0d45f-ry-npmjs-org-knex-knex-0-7-3-tgz https://registry.npmjs.org/knex/-/knex-0.7.3.tgz
+1049 silly lockFile 20c0d45f-ry-npmjs-org-knex-knex-0-7-3-tgz https://registry.npmjs.org/knex/-/knex-0.7.3.tgz
+1050 silly lockFile c74436cc-knex-0-7-3 knex@0.7.3
+1051 silly lockFile c74436cc-knex-0-7-3 knex@0.7.3
+1052 silly lockFile 58c9bcd6-js-org-sqlite3-sqlite3-3-0-2-tgz https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz
+1053 verbose lock https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz /Users/mikeouellette1/.npm/58c9bcd6-js-org-sqlite3-sqlite3-3-0-2-tgz.lock
+1054 verbose addRemoteTarball [ 'https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz',
+1054 verbose addRemoteTarball   '96cdd857f5aa141dc694f9a6353d1aaff9244e0b' ]
+1055 info retry fetch attempt 1 at 13:22:07
+1056 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz
+1057 http GET https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz
+1058 http 200 https://registry.npmjs.org/request
+1059 silly registry.get cb [ 200,
+1059 silly registry.get   { date: 'Tue, 16 Dec 2014 17:22:07 GMT',
+1059 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+1059 silly registry.get     etag: '"6TSX4A8G29K754ZRAKV6AOXRS"',
+1059 silly registry.get     'content-type': 'application/json',
+1059 silly registry.get     'cache-control': 'max-age=60',
+1059 silly registry.get     'content-length': '132993',
+1059 silly registry.get     'accept-ranges': 'bytes',
+1059 silly registry.get     via: '1.1 varnish',
+1059 silly registry.get     age: '14',
+1059 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+1059 silly registry.get     'x-cache': 'HIT',
+1059 silly registry.get     'x-cache-hits': '1',
+1059 silly registry.get     'x-timer': 'S1418750527.361216,VS0,VE1',
+1059 silly registry.get     vary: 'Accept',
+1059 silly registry.get     'keep-alive': 'timeout=10, max=42',
+1059 silly registry.get     connection: 'Keep-Alive' } ]
+1060 http 200 https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+1061 silly lockFile 5a101fd8-s-org-request-request-2-47-0-tgz https://registry.npmjs.org/request/-/request-2.47.0.tgz
+1062 verbose lock https://registry.npmjs.org/request/-/request-2.47.0.tgz /Users/mikeouellette1/.npm/5a101fd8-s-org-request-request-2-47-0-tgz.lock
+1063 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.47.0.tgz',
+1063 verbose addRemoteTarball   '09e9fd1a4fed6593a805ef8202b20f0c5ecb485f' ]
+1064 info retry fetch attempt 1 at 13:22:07
+1065 verbose fetch to= /var/folders/1s/61b7dd554qn18w84614lbzrh0000gp/T/npm-22687-ADjF5hzr/registry.npmjs.org/request/-/request-2.47.0.tgz
+1066 http GET https://registry.npmjs.org/request/-/request-2.47.0.tgz
+1067 silly lockFile 0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+1068 silly lockFile 0d74032f-pmjs-org-lodash-lodash-2-4-1-tgz https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+1069 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+1070 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+1071 http 200 https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz
+1072 http 200 https://registry.npmjs.org/request/-/request-2.47.0.tgz
+1073 silly lockFile 5a101fd8-s-org-request-request-2-47-0-tgz https://registry.npmjs.org/request/-/request-2.47.0.tgz
+1074 silly lockFile 5a101fd8-s-org-request-request-2-47-0-tgz https://registry.npmjs.org/request/-/request-2.47.0.tgz
+1075 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+1076 silly lockFile 6725db09-request-2-47-0 request@2.47.0
+1077 silly lockFile 58c9bcd6-js-org-sqlite3-sqlite3-3-0-2-tgz https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz
+1078 silly lockFile 58c9bcd6-js-org-sqlite3-sqlite3-3-0-2-tgz https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.2.tgz
+1079 silly lockFile b65e1446-sqlite3-3-0-2 sqlite3@3.0.2
+1080 silly lockFile b65e1446-sqlite3-3-0-2 sqlite3@3.0.2
+1081 error Error: EACCES, mkdir '/Users/mikeouellette1/.npm/node-uuid/1.4.1'
+1081 error  { [Error: EACCES, mkdir '/Users/mikeouellette1/.npm/node-uuid/1.4.1']
+1081 error   errno: 3,
+1081 error   code: 'EACCES',
+1081 error   path: '/Users/mikeouellette1/.npm/node-uuid/1.4.1',
+1081 error   parent: 'ghost' }
+1082 error Please try running this command again as root/Administrator.
+1083 error System Darwin 14.0.0
+1084 error command "node" "/usr/local/bin/npm" "install" "--production"
+1085 error cwd /Users/mikeouellette1/dev/ghostongit
+1086 error node -v v0.10.33
+1087 error npm -v 1.4.28
+1088 error path /Users/mikeouellette1/.npm/node-uuid/1.4.1
+1089 error code EACCES
+1090 error errno 3
+1091 error stack Error: EACCES, mkdir '/Users/mikeouellette1/.npm/node-uuid/1.4.1'
+1092 verbose exit [ 3, true ]
